@@ -12,6 +12,8 @@
 using namespace std;
 
 vector<double> generate_random_vector(int num_values) {
+    //Generates a vector of num_values elements uniformely sampled from (0, 1)
+
     vector<double> vec(num_values);
 
     iota(vec.begin(), vec.end(), 0);

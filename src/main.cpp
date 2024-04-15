@@ -13,7 +13,7 @@ using namespace std::chrono;
 int main() {
     FHEController controller;
 
-    int num_values = 2048;
+    int num_values = 1024;
     int relu_degree = 247;
 
     // Levels required by ReLU approximation
