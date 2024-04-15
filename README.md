@@ -1,6 +1,6 @@
 # Practical Sorting of Encrypted Numbers in Approximate Homomorphic Encryption
 <center>
-<img src="imgs/console_noback.png" alt="Console presentation image" width=85% >
+<img src="imgs/console_noback.png" alt="Console presentation image" width=92% >
 </center>
 
 This repository contains the source code for the work-in-progress paper *Practical Sorting of Encrypted Numbers in Approximate Homomorphic Encryption*. With this code it is possibly to sort a vector of encrypted values in reasonable time.
