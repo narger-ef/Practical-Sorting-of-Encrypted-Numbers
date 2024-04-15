@@ -36,7 +36,7 @@ int FHEController::generate_context(int num_slots, int levels_required, bool toy
     ScalingTechnique rescaleTech = FLEXIBLEAUTO;
 
     int dcrtBits = 50;
-    int firstMod = 51;
+    int firstMod = 54;
 
     parameters.SetScalingModSize(dcrtBits);
     parameters.SetScalingTechnique(rescaleTech);

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.23)
-project(Ordering)
+project(Practical-Sorting-of-Encrypted-Numbers)
 set(CMAKE_CXX_STANDARD 17)
 option( BUILD_STATIC "Set to ON to include static versions of the library" OFF)
 
@@ -35,4 +35,4 @@ else()
     link_libraries( ${OpenFHE_SHARED_LIBRARIES} )
 endif()
 
-add_executable(Ordering src/main.cpp src/FHEController.cpp src/FHEController.h src/Utils.h)
+add_executable(Sort src/main.cpp src/FHEController.cpp src/FHEController.h src/Utils.h)

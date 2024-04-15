@@ -70,7 +70,7 @@ int main(int argc, char *argv[]) {
 
             if (verbose) print_duration(start_time_local, "Bootstrapping");
 
-            cout << "Layer " << current_iteration << " / " << iterations << " done." << endl;
+            if (verbose) cout << "Layer " << current_iteration << " / " << iterations << " done." << endl;
             current_iteration++;
 
         }
