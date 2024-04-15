@@ -1,36 +1,51 @@
 #include <iostream>
 #include "openfhe.h"
 #include "chrono"
-#include "FHEController.h"
-#include "Utils.h"
-
+#include "../src/FHEController.h"
+#include "../src/Utils.h"
 
 using namespace lbcrypto;
 using namespace std;
 using namespace std::chrono;
 
+void read_arguments(int argc, char *argv[]);
 
-int main() {
+/*
+ * Arguments parameters
+ */
+int poly_degree = 247;
+vector<double> input_values = {};
+bool verbose = false;
+bool toy_parameters = false;
+
+int main(int argc, char *argv[]) {
     FHEController controller;
 
-    int num_values = 1024;
-    int relu_degree = 247;
+    if (argc > 1) read_arguments(argc, argv);
 
-    // Levels required by ReLU approximation
-    int levels_consumption = poly_evaluation_cost(relu_degree);
+    if (input_values.empty()) {
+        cout << "Could not parse input arguments, going with default parameters." << endl;
+        input_values = generate_random_vector(8);
+        toy_parameters = true;
+        verbose = false;
+        //return -1;
+    }
+
+    cout << "Input vector: " << input_values << endl;
+
+    int num_values = input_values.size();
+
+    // Levels required by max(0, x) approximation
+    int levels_consumption = poly_evaluation_cost(poly_degree);
 
     // One more level for the masking operation
     levels_consumption += 1;
 
-    int circuit_depth = controller.generate_context(num_values, levels_consumption);
+    int circuit_depth = controller.generate_context(num_values, levels_consumption, toy_parameters);
 
     controller.generate_rotation_keys(num_values);
 
-    vector<double> vec = generate_random_vector(num_values);
-
-    Ctxt in = controller.encrypt(vec, circuit_depth - levels_consumption - 1, num_values);
-
-    cout << endl << "Input vector: " << vec << endl;
+    Ctxt in = controller.encrypt(input_values, circuit_depth - levels_consumption - 2, num_values);
 
     // The number of iteration is (N*(N+1)/2), where N is the logarithm of the number of slots
     int iterations = (log2(num_values) * (log2(num_values) + 1)) / 2;
@@ -45,30 +60,67 @@ int main() {
             int stage = i - j;
             int round = j;
 
-            //cout << "Level before: " << in->GetLevel() << endl;
             auto start_time_local = steady_clock::now();
-            in = controller.swap(in, delta, stage, round, relu_degree, num_values);
-            print_duration(start_time_local, "Swap");
+            in = controller.swap(in, delta, stage, round, poly_degree);
+            if (verbose) print_duration(start_time_local, "Swap");
             start_time_local = steady_clock::now();
-            //cout << "Level after: " << in->GetLevel() << endl;
-            auto test = controller.decrypt(in);
-            in = controller.bootstrap(in);
-            print_duration(start_time_local, "Bootstrapping");
-            //cout << "Level fresh: " << in->GetLevel() << endl;
 
-            cout << current_iteration << " / " << iterations << endl;
+            if (current_iteration < iterations)
+                in = controller.bootstrap(in);
+
+            if (verbose) print_duration(start_time_local, "Bootstrapping");
+
+            cout << "Layer " << current_iteration << " / " << iterations << " done." << endl;
             current_iteration++;
+
         }
     }
 
-    sort(vec.begin(), vec.end());
+    sort(input_values.begin(), input_values.end());
 
     print_duration(start_time, "The evaluation of the circuit took");
 
     cout << setprecision(4) << fixed;
-    cout << "Expected: " << vec << endl << "Obtained: ";
+    cout << "Expected: " << input_values << endl << "Obtained: ";
     controller.print(in);
 
     return 0;
 }
 
+void read_arguments(int argc, char *argv[]) {
+
+    if (argc == 1) {
+        cerr << "TODO: mettere istruzioni" << endl;
+    }
+
+    if (argc > 2 && string(argv[1]) == "--random") {
+        int num_values = stoi(string(argv[2]));
+
+        if (floor(log2(num_values)) != ceil(log2(num_values))) {
+            cerr << "The number of values must be a power of two" << endl;
+        }
+
+        input_values = generate_random_vector(num_values);
+    }
+    else {
+        try {
+            input_values = parse_input_vector(argv[1]);
+        } catch (...) {
+            cerr << "A problem occured in parsing the input vector" << endl;
+        }
+    }
+
+    for (int i = 2; i < argc; i++) {
+        if (string(argv[i]) == "--poly_degree" && i + 1 < argc) {
+            poly_degree = stoi(string(argv[i + 1]));
+        }
+
+        if (string(argv[i]) == "--verbose") {
+            verbose = true;
+        }
+
+        if (string(argv[i]) == "--toy_parameters") {
+            toy_parameters = true;
+        }
+    }
+}

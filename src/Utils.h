@@ -22,8 +22,6 @@ vector<double> generate_random_vector(int num_values) {
         value /= num_values;
     }
 
-    cout << vec;
-
     random_device rd;
     mt19937 g(rd());
     shuffle(vec.begin(), vec.end(), g);
@@ -61,6 +59,35 @@ int poly_evaluation_cost(int degree) {
         return 0;
     }
 
+}
+
+static inline vector<double> parse_input_vector(const std::string& input) {
+    std::vector<double> result;
+    std::istringstream iss(input);
+    char discard;
+    double value;
+
+    // Discard the opening bracket
+    iss >> discard;
+
+    // Parse the doubles
+    while (iss >> value) {
+        if (value < 0 || value > 1) {
+            cerr << "All the values must be in [0, 1]!" << endl;
+            return {};
+        }
+        result.push_back(value);
+
+        // Discard the comma or closing bracket
+        iss >> std::ws >> discard;
+    }
+
+    if (floor(log2(result.size())) != ceil(log2(result.size()))) {
+        cerr << "The number of values must be a power of two!" << endl;
+        return {};
+    }
+
+    return result;
 }
 
 static inline void print_duration(chrono::time_point<steady_clock, nanoseconds> start, const string &title) {

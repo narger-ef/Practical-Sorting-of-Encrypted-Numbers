@@ -20,11 +20,11 @@ class FHEController {
     CryptoContext<DCRTPoly> context; // Crypto context for the FHE system
 
 public:
-    FHEController() {} // Constructor
+    FHEController() {}
 
 
     // Generate the cryptocontext with a specified number of slots and levels
-    int generate_context(int num_slots, int levels_required);
+    int generate_context(int num_slots, int levels_required, bool toy_parameters);
 
     // Generate rotation keys for performing rotations
     void generate_rotation_keys(int num_slots);

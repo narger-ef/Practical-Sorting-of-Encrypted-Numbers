@@ -10,23 +10,28 @@
  *
  * @param num_slots The number of slots in the ciphertext.
  * @param levels_required The required circuit depth
+ * @param toy_parameters Choose whether to use toy parameters (true)
+ * or 128-bit security parameters (false)
  * @return the total depth of the circuit
  */
-int FHEController::generate_context(int num_slots, int levels_required) {
+int FHEController::generate_context(int num_slots, int levels_required, bool toy_parameters) {
     CCParams<CryptoContextCKKSRNS> parameters;
 
     parameters.SetSecretKeyDist(SPARSE_TERNARY);
+    vector<uint32_t> level_budget;
 
-    //parameters.SetSecurityLevel(lbcrypto::HEStd_128_classic);
-    //parameters.SetRingDim(1 << 16);
+    level_budget = {3, 3};
 
-    parameters.SetSecurityLevel(lbcrypto::HEStd_NotSet);
-    parameters.SetRingDim(1 << 14);
+    if (toy_parameters) {
+        parameters.SetSecurityLevel(lbcrypto::HEStd_NotSet);
+        parameters.SetRingDim(1 << 14);
+    } else {
+        parameters.SetSecurityLevel(lbcrypto::HEStd_128_classic);
+        parameters.SetRingDim(1 << 16);
+    }
 
-    parameters.SetNumLargeDigits(5); //d_{num} Se lo riduci, aumenti il logQP, se lo aumenti, aumenti memori
+    parameters.SetNumLargeDigits(5);
     parameters.SetBatchSize(num_slots);
-
-    vector<int> level_budget = {3, 3};
 
     ScalingTechnique rescaleTech = FLEXIBLEAUTO;
 
@@ -37,19 +42,13 @@ int FHEController::generate_context(int num_slots, int levels_required) {
     parameters.SetScalingTechnique(rescaleTech);
     parameters.SetFirstModSize(firstMod);
 
-    uint32_t levelsUsedBeforeBootstrap = levels_required + 1;
+    int levelsUsedBeforeBootstrap = levels_required + 1;
 
     int circuit_depth = levelsUsedBeforeBootstrap + FHECKKSRNS::GetBootstrapDepth(level_budget, SPARSE_TERNARY);
-
-    cout << endl << "Ciphertexts depth: " << circuit_depth << ", available multiplications: "
-         << levelsUsedBeforeBootstrap - 2 << endl;
 
     parameters.SetMultiplicativeDepth(circuit_depth);
 
     context = GenCryptoContext(parameters);
-
-    cout << "Context built, generating keys..." << endl;
-
     context->Enable(PKE);
     context->Enable(KEYSWITCH);
     context->Enable(LEVELEDSHE);
@@ -79,8 +78,6 @@ void FHEController::generate_rotation_keys(int num_slots) {
         rotations.push_back(pow(2, i));
         rotations.push_back(-pow(2, i));
     }
-
-    //cout << "Rotation keys for: " << rotations << endl;
 
     context->EvalRotateKeyGen(key_pair.secretKey, rotations);
 }
