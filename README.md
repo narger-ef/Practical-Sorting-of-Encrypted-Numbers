@@ -39,12 +39,17 @@ cd build
 
 Now it is possible to launch the program! Notice that, before doing that, at least one argument is required:
 
-#### Required arguments:
+### Required arguments:
 One of the following two arguments is required in order to correctly give the input to the circuit.
 
 - To use as input a random vector of values, use `--random n` where `n` is a power of two. For example:
 ```
 ./Sort --random 8
+```
+
+- To use as input a file, use `--file FILENAME` where `FILENAME` is the selected file. For example:
+```
+./Sort --file "input.txt"
 ```
 
 - Alternatively, you can provide a vector directly by enclosing it in square brackets, for example: `"[0.5, 0.12, 0.71, 0.42]"`. Notice that, in this case, the values $v_i$ in the vector $v$ must be $v_i \in [0, 1]$ and the length of the vector $|v|$ must be a power of two. For example:
@@ -53,7 +58,7 @@ One of the following two arguments is required in order to correctly give the in
 ./Sort "[0.5, 0.12, 0.71, 0.42]"
 ```
 
-#### Optional arguments:
+### Optional arguments:
 
 It is also possible to change the behavior of the program by using some optional argument:
 
@@ -67,7 +72,11 @@ It is also possible to change the behavior of the program by using some optional
 ```
 ./Sort --random 8 --toy_parameters --verbose
 ```
+- `--poly_degree`: the degree of the Chebyshev polynomial approximating the ReLU function. Suggested values, from [here](https://github.com/openfheorg/openfhe-development/blob/main/src/pke/examples/FUNCTION_EVALUATION.md): 119, 247, 495
 
+```
+./Sort --random 8 --poly_degree 247 --verbose
+```
 
 
 
