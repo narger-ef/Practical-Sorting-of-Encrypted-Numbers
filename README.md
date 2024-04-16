@@ -78,7 +78,7 @@ It is also possible to change the behavior of the program by using some optional
 ./Sort --random 8 --poly_degree 247 --verbose
 ```
 
-- `--scaling_factor`: the input values will be scaled (multiplied) by this value. Useful if the input values are not in $[-1, 1]$.
+- `--scaling_factor`: the input values will be scaled (multiplied) by this value. Useful if the input values are not in $[-1, 1]$ (default is `scaling_factor = 1`)
 
 ```
 ./Sort "[4, 14, 20, 2]" --scaling_factor 0.05
