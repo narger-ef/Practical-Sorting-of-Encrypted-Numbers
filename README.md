@@ -47,16 +47,17 @@ One of the following two arguments is required in order to correctly give the in
 ./Sort --random 8
 ```
 
-- To use as input a file, use `--file FILENAME` where `FILENAME` is the selected file. For example:
+- To use as input a file, use `--file FILENAME` where `FILENAME` is the selected file. Notice that the file must contain a power-of-two number of values. For example:
 ```
 ./Sort --file "../inputs/four_values.txt"
 ```
 
-- Alternatively, you can provide a vector directly by enclosing it in square brackets, for example: `"[0.5, 0.12, 0.71, 0.42]"`. Notice that, in this case, the values $v_i$ in the vector $v$ must be $v_i \in [0, 1]$ and the length of the vector $|v|$ must be a power of two. For example:
-
+- Alternatively, you can provide a vector directly by enclosing it in square brackets, for example: `"[0.5, 0.12, 0.71, 0.42]"`. Notice that, also in this case, the length of the vector $|v|$ must be a power of two. 
 ```
 ./Sort "[0.5, 0.12, 0.71, 0.42]"
 ```
+
+Be sure that the input given when using `--file` or when providing a vector is composed of values in $[0, 1]$. Nevertheless, the program can work on a larger interval $[0, r]$, check the scaling factor optional argument.
 
 ### Optional arguments:
 
@@ -78,10 +79,9 @@ It is also possible to change the behavior of the program by using some optional
 ./Sort --random 8 --poly_degree 247 --verbose
 ```
 
-- `--scaling_factor`: the input values will be scaled (multiplied) by this value. Useful if the input values are not in $[-1, 1]$ (default is `scaling_factor = 1`)
-
+- `--scaling_factor`: the input values will be scaled (divided) by this value. Useful if the input values are not in $[0, 1]$, but in $[0, r]$, where $r$ is the scaling factor (default is `scaling_factor = 1`)
 ```
-./Sort "[4, 14, 20, 2]" --scaling_factor 0.05
+./Sort "[4, 14, 10, 7, 8, 14, 20, 2]" --scaling_factor 20
 ```
 
 
