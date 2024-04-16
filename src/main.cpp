@@ -101,6 +101,17 @@ void read_arguments(int argc, char *argv[]) {
         }
 
         input_values = generate_random_vector(num_values);
+    } else if (argc > 2 && string(argv[1]) == "--file") {
+        ifstream f(argv[2]); //taking file as inputstream
+        string str;
+        if (f) {
+            ostringstream ss;
+            ss << f.rdbuf(); // reading data
+            str = ss.str();
+        } else {
+            cout << "Could not find \"" << string(argv[2]) << "\"" << endl;
+        }
+        input_values = parse_input_vector("[ " + str + " ]");
     }
     else {
         try {
