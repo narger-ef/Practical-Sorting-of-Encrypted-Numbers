@@ -57,7 +57,7 @@ One of the following two arguments is required in order to correctly give the in
 ./Sort "[0.5, 0.12, 0.71, 0.42]"
 ```
 
-Be sure that the input given when using `--file` or when providing a vector is composed of values in $[0, 1]$. Nevertheless, the program can work on a larger interval $[0, r]$, check the scaling factor optional argument.
+Be sure that, the input vector given when using `--file`, or the input vector provided as a string, must be composed of values in $[0, 1]$. Nevertheless, the program can work on a larger interval $[0, r]$, check the scaling factor optional argument.
 
 ### Optional arguments:
 
