@@ -49,7 +49,7 @@ One of the following two arguments is required in order to correctly give the in
 
 - To use as input a file, use `--file FILENAME` where `FILENAME` is the selected file. For example:
 ```
-./Sort --file "inputs/four_values.txt"
+./Sort --file "../inputs/four_values.txt"
 ```
 
 - Alternatively, you can provide a vector directly by enclosing it in square brackets, for example: `"[0.5, 0.12, 0.71, 0.42]"`. Notice that, in this case, the values $v_i$ in the vector $v$ must be $v_i \in [0, 1]$ and the length of the vector $|v|$ must be a power of two. For example:
