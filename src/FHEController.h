@@ -36,6 +36,9 @@ public:
     // Encode a vector of doubles into a plaintext
     Ptxt encode(const vector<double>& vec, int level, int num_slots);
 
+    // Encodes a value in a plaintext (it will be repeated)
+    Ptxt encode(double value, int level, int num_slots);
+
     // Encrypt a vector of doubles
     Ctxt encrypt(const vector<double>& vec, int level = 0, int plaintext_num_slots = 0);
 
@@ -60,11 +63,11 @@ public:
     // Subtract one ciphertext from another
     Ctxt sub(const Ctxt& c1, const Ctxt& c2);
 
-    // Multiply a ciphertext by a scalar
-    Ctxt mult(const Ctxt& c, double d);
-
     // Multiply a ciphertext by a plaintext
     Ctxt mult(const Ctxt& c, const Ptxt& p);
+
+    // Multiply a ciphertext by a scalar
+    Ctxt mult(const Ctxt& c, double d);
 
     // Rotate a ciphertext by a specified index
     Ctxt rot(const Ctxt& c, int index);

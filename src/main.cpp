@@ -17,6 +17,7 @@ int poly_degree = 247;
 vector<double> input_values = {};
 bool verbose = false;
 bool toy_parameters = false;
+double scaling_factor = 1;
 
 int main(int argc, char *argv[]) {
     FHEController controller;
@@ -30,6 +31,8 @@ int main(int argc, char *argv[]) {
         verbose = false;
         //return -1;
     }
+
+    cout << "Scaling factor: " << scaling_factor << endl;
 
     cout << "Input vector: " << input_values << endl;
 
@@ -45,7 +48,11 @@ int main(int argc, char *argv[]) {
 
     controller.generate_rotation_keys(num_values);
 
-    Ctxt in = controller.encrypt(input_values, circuit_depth - levels_consumption - 2, num_values);
+    Ctxt in = controller.encrypt(input_values, circuit_depth - levels_consumption - 3, num_values);
+
+    if (scaling_factor != 1) in = controller.mult(in, 1 / scaling_factor);
+
+    controller.print(in);
 
     // The number of iteration is (N*(N+1)/2), where N is the logarithm of the number of slots
     int iterations = (log2(num_values) * (log2(num_values) + 1)) / 2;
@@ -65,6 +72,8 @@ int main(int argc, char *argv[]) {
             if (verbose) print_duration(start_time_local, "Swap");
             start_time_local = steady_clock::now();
 
+            controller.decrypt(in);
+
             if (current_iteration < iterations)
                 in = controller.bootstrap(in);
 
@@ -75,6 +84,9 @@ int main(int argc, char *argv[]) {
 
         }
     }
+
+    // This could be avoided by running the last masking phase with scaling_factor, but whatever
+    in = controller.mult(in, scaling_factor);
 
     sort(input_values.begin(), input_values.end());
 
@@ -132,6 +144,10 @@ void read_arguments(int argc, char *argv[]) {
 
         if (string(argv[i]) == "--toy_parameters") {
             toy_parameters = true;
+        }
+
+        if (string(argv[i]) == "--scaling_factor" && i + 1 < argc) {
+            scaling_factor = stod(string(argv[i + 1]));
         }
     }
 }

@@ -2,7 +2,6 @@
 // Created by Lorenzo on 14/04/24.
 //
 
-
 #include "FHEController.h"
 
 /**
@@ -98,6 +97,21 @@ Ptxt FHEController::encode(const vector<double> &vec, int level, int num_slots) 
 }
 
 /**
+ * Encode a real value into a RLWE polynomial using the CKKS scheme.
+ *
+ * @param value The real value to be encoded
+ * @param level The level at which the vector is encoded.
+ * @param num_slots The number of plaintext slots.
+ * @return The encoded plaintext.
+ */
+Ptxt FHEController::encode(double value, int level, int num_slots) {
+    vector<double> repeated_value;
+    for (int i = 0; i < num_slots; i++) repeated_value.push_back(value);
+
+    return encode(repeated_value, level, num_slots);
+}
+
+/**
  * Encrypt a vector of doubles
  *
  * @param vec The vector of doubles to be encrypted.
@@ -117,7 +131,7 @@ Ctxt FHEController::encrypt(const vector<double> &vec, int level, int num_slots)
  * @param c The ciphertext to be decoded.
  * @return The decoded plaintext.
  */
-vector<double> decode(const Ptxt& p) {
+vector<double> FHEController::decode(const Ptxt& p) {
     return p->GetRealPackedValue();
 }
 
@@ -133,7 +147,6 @@ Ptxt FHEController::decrypt(const Ctxt &c) {
 
     return p;
 }
-
 
 /**
  * Perform a slot-wise addition operation on two ciphertexts
@@ -177,6 +190,18 @@ Ctxt FHEController::sub(const Ctxt &a, const Ctxt &b) {
  */
 Ctxt FHEController::mult(const Ctxt &c, const Ptxt& p) {
     return context->EvalMult(c, p);
+}
+
+/**
+ * Perform a multiplication operation between all the slots of a ciphertext
+ * and a real value
+ *
+ * @param c A ciphertext.
+ * @param v A real value
+ * @return The result of multiplication operation between the inputs
+ */
+Ctxt FHEController::mult(const Ctxt &c, double v) {
+    return context->EvalMult(c, encode(v, c->GetLevel(), c->GetSlots()));
 }
 
 /**
@@ -239,12 +264,13 @@ Ctxt FHEController::swap(const Ctxt &in, int delta, int round, int stage, int po
     Ctxt rot_pos = rot(in, delta);
     Ctxt rot_neg = rot(in, -delta);
 
-    Ctxt f = min(in, rot_pos, poly_degree);
+    // This performs the evaluation of the min function
+    Ctxt m1 = min(in, rot_pos, poly_degree);
 
-    Ctxt m1 = f;
-    Ctxt m2 = sub(add(in, rot_neg), rot(f, -delta));
-    Ctxt m3 = sub(add(in, rot_pos), f);
-    Ctxt m4 = rot(f, -delta);
+    // The other values are obtained in function of m1
+    Ctxt m3 = sub(add(in, rot_pos), m1);
+    Ctxt m4 = rot(m1, -delta);
+    Ctxt m2 = sub(add(in, rot_neg), m4);
 
     vector<Ptxt> masks = generate_layer_masks(m1->GetLevel(), m1->GetSlots(), round, stage);
 

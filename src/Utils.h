@@ -16,7 +16,7 @@ vector<double> generate_random_vector(int num_values) {
 
     vector<double> vec(num_values);
 
-    iota(vec.begin(), vec.end(), 0);
+    iota(vec.begin(), vec.end(), 0.5);
 
     for (double& value : vec) {
         value /= num_values;
@@ -72,10 +72,6 @@ static inline vector<double> parse_input_vector(const std::string& input) {
 
     // Parse the doubles
     while (iss >> value) {
-        if (value < 0 || value > 1) {
-            cerr << "All the values must be in [0, 1]!" << endl;
-            return {};
-        }
         result.push_back(value);
 
         // Discard the comma or closing bracket
