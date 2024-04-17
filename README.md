@@ -29,7 +29,7 @@ git clone https://github.com/narger-ef/Practical-Sorting-of-Encrypted-Numbers
 Then, make a `build` folder and build the project with `cmake`
 ```
 mkdir build
-cmake -B "build" -S LowMemoryFHEResNet20
+cmake -B "build" -S Sort
 ```
 Before launching the program, go to the just created folder:
 
