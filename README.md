@@ -42,7 +42,7 @@ Now it is possible to launch the program! Notice that, before doing that, at lea
 ### Required arguments:
 One of the following two arguments is required in order to correctly give the input to the circuit.
 
-- To use as input a random vector of values, use `--random n` where `n` is a power of two. For example:
+- To use as input a vector of values from 0 to `N` randomly shuffled, use `--random N` where `N` is a power of two. For example:
 ```
 ./Sort --random 8
 ```
