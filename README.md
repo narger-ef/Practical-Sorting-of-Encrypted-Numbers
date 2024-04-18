@@ -75,17 +75,16 @@ Be sure that, the input vector given when using `--file`, or the input vector pr
 It is also possible to change the behavior of the program by using some optional argument:
 
 - `--toy_parameters`: with this argument the cryptosystem will not have the minimum requirement of $\lambda = 128$ security bits against classical computers. Suggested in case you want to play around with the algorithm. For example:
-  
 ```
 ./Sort --random 8 --toy_parameters
 ```
-- `--verbose`: when this argument is present, the program will give more information to the user about what is happening behind the scenes. For example:
 
+- `--verbose`: when this argument is present, the program will give more information to the user about what is happening behind the scenes. For example:
 ```
 ./Sort --random 8 --toy_parameters --verbose
 ```
-- `--poly_degree`: the degree of the Chebyshev polynomial approximating the ReLU function. Suggested values, from [here](https://github.com/openfheorg/openfhe-development/blob/main/src/pke/examples/FUNCTION_EVALUATION.md): 119, 247, 495
 
+- `--poly_degree`: the degree of the Chebyshev polynomial approximating the ReLU function. Suggested values, from [here](https://github.com/openfheorg/openfhe-development/blob/main/src/pke/examples/FUNCTION_EVALUATION.md): 119, 247, 495
 ```
 ./Sort --random 8 --poly_degree 247 --verbose
 ```
@@ -94,6 +93,12 @@ It is also possible to change the behavior of the program by using some optional
 ```
 ./Sort "[4, 14, 10, 7, 8, 14, 20, 2]" --scaling_factor 20
 ```
+
+- `--error_correction` performs an error correction after Chebyshev evaluations. This ensures that the values are always in $[0, 1]$ after each *min* call, but the precision is reduced. Check Section 2.2 for more details. For example:
+```
+./Sort "[1, 0, 0, 0, 0, 0, 0, 0]" --poly_degree 119 --error_correction
+```
+The above code will not work without the `error_correction` flag.
 
 
 
