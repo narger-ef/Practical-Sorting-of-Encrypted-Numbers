@@ -72,6 +72,9 @@ Be sure that, the input vector given when using `--file`, or the input vector pr
 
 ### Optional arguments:
 
+> [!IMPORTANT]
+> Be sure to check the paper in order to fully understand the impact of each argument.
+
 It is also possible to change the behavior of the program by using some optional argument:
 
 - `--toy_parameters`: with this argument the cryptosystem will not have the minimum requirement of $\lambda = 128$ security bits against classical computers. Suggested in case you want to play around with the algorithm. For example:
