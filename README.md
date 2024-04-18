@@ -1,19 +1,20 @@
 <center> 
   <h1 align="center">Practical Sorting of Encrypted Numbers in Approximate Homomorphic Encryption</h1>
-  <p align="center"><img src="imgs/console_noback.png" alt="Console presentation image" width=92% ></p>
+ 
   <p align="center">
     <a href="https://orcid.org/0000-0001-5093-7932"><strong>Lorenzo Rovida</strong></a>
     ·
     <a href="https://orcid.org/0000-0002-8105-4371"><strong>Alberto Leporati</strong></a>
   </p>
-  <p align="center"><sup>University of Milan-Bicocca, <br>
+  <span line-height:10>
+  <p align="center" line-height:20><sup>University of Milan-Bicocca, <br>
     Department of Informatics, Systems, and Communication, <br>
   Viale Sarca 336, Edificio U14, 20126 Milano, Italy <br>
   $\texttt{\{lorenzo.rovida, alberto.leporati\}@unimib.it}$
-  
-  </sup></p>
+  </sup></p></span>
 </center>
 </br>
+ <p align="center"><img src="imgs/console_noback.png" alt="Console presentation image" width=92% ></p>
 <a href='https://mcrespo.me/publications/primary-space-cv/data/crespo2021primary.pdf'>
     <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat-square' alt='Paper PDF' width=9%>
 </a> 
