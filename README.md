@@ -14,7 +14,7 @@
   </sup></p></span>
 </center>
 </br>
- <p align="center"><img src="imgs/console_noback.png" alt="Console presentation image" width=92% ></p>
+ <p align="center"><img src="imgs/console_noback.png" alt="Console presentation image" width=95% ></p>
 <a href='https://mcrespo.me/publications/primary-space-cv/data/crespo2021primary.pdf'>
     <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat-square' alt='Paper PDF' width=9%>
 </a> 
