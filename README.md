@@ -13,7 +13,7 @@
   </sup></p></span>
 </center>
 </br>
- <p align="center"><img src="imgs/console_noback.png" alt="Console presentation image" width=95% ></p>
+<p align="center"><img src="imgs/console_noback.png" alt="Console presentation image" width=95% ></p>
 <img src="https://img.shields.io/badge/Paper%20-PDF-red.svg" alt="Paper PDF" width=10%>
 
 ---
@@ -110,7 +110,7 @@ The above code will not work without the `error_correction` flag.
 ## How it works
 
 The circuit implements the Bitonic Sort algorithm, which creates a sorting network that sorts $2^n$ values.
-<img src="imgs/sorting_network.png" alt="Sorting network with eight inputs" width=60% >
+<p><img src="imgs/sorting_network.png" alt="Sorting network with eight inputs" width=75% ></p>
 
 ## Citing
 
