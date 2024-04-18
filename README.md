@@ -109,6 +109,9 @@ The above code will not work without the `error_correction` flag.
 
 ## How it works
 
+The circuit implements the Bitonic Sort algorithm, which creates a sorting network that sorts $2^n$ values.
+<img src="imgs/sorting_network.png" alt="Sorting network with eight inputs" width=60% >
+
 ## Citing
 
 ## Authors
