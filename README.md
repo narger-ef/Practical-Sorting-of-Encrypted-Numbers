@@ -1,6 +1,6 @@
 <center> 
   <h1 align="center">Practical Sorting of Encrypted Numbers in Approximate Homomorphic Encryption</h1>
-  <img src="imgs/console_noback.png" alt="Console presentation image" width=92% >
+  <p align="center"><img src="imgs/console_noback.png" alt="Console presentation image" width=92% ></p>
   <p align="center">
     <a href="https://orcid.org/0000-0001-5093-7932"><strong>Lorenzo Rovida</strong></a>
     ·
