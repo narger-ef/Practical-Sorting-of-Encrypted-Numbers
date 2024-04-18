@@ -84,7 +84,7 @@ It is also possible to change the behavior of the program by using some optional
 ./Sort --random 8 --toy_parameters
 ```
 
-- `--verbose N`: define the quantity of information. `N = 0` does not print any message, apart from the result. `N = 1` gives basic information. `N = 2` gives all the details. Default is 0. For example:
+- `--verbose N`: define the quantity of information. `N = -1` does not print anything, `N = 0` prints only the result, `N = 1` gives basic information and `N = 2` gives all the details. Default is 0. For example:
 ```
 ./Sort --random 8 --toy_parameters --verbose 1
 ```
