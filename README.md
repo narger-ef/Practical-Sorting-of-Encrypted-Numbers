@@ -9,7 +9,6 @@
   <span line-height:10>
   <p align="center" line-height:20><sup>University of Milan-Bicocca, <br>
     Department of Informatics, Systems, and Communication, <br>
-  Viale Sarca 336, Edificio U14, 20126 Milano, Italy <br>
   $\texttt{\{lorenzo.rovida, alberto.leporati\}@unimib.it}$
   </sup></p></span>
 </center>
