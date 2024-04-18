@@ -308,12 +308,12 @@ Ctxt FHEController::swap(const Ctxt &in, int delta, int round, int stage, int po
     Ctxt rot_neg = rot(in, -delta);
 
     // This performs the evaluation of the min function
-    Ctxt m1 = min(in, rot_pos, poly_degree);
+    Ctxt c_1 = min(in, rot_pos, poly_degree);
 
-    // The other values are obtained in function of m1
-    Ctxt m3 = sub(add(in, rot_pos), m1);
-    Ctxt m4 = rot(m1, -delta);
-    Ctxt m2 = sub(add(in, rot_neg), m4);
+    // The other values are obtained in function of c_1
+    Ctxt c_4 = sub(add(in, rot_pos), c_1);
+    Ctxt c_3 = rot(c_1, -delta);
+    Ctxt c_2 = sub(add(in, rot_neg), c_3);
 
     double mask_value = 1;
 
@@ -321,18 +321,18 @@ Ctxt FHEController::swap(const Ctxt &in, int delta, int round, int stage, int po
         mask_value = 1 / codomain[2];
     }
 
-    vector<Ptxt> masks = generate_layer_masks(m1->GetLevel(), m1->GetSlots(), round, stage, mask_value);
+    vector<Ptxt> masks = generate_layer_masks(c_1->GetLevel(), c_1->GetSlots(), round, stage, mask_value);
 
     if (!codomain.empty()) {
-        Ptxt m_d = encode(codomain[0], m1->GetLevel(), m1->GetSlots());
+        Ptxt m_d = encode(codomain[0], c_1->GetLevel(), c_1->GetSlots());
 
-        m1 = sub(m1, m_d);
-        m2 = sub(m2, m_d);
-        m3 = sub(m3, m_d);
-        m4 = sub(m4, m_d);
+        c_1 = sub(c_1, m_d);
+        c_2 = sub(c_2, m_d);
+        c_3 = sub(c_3, m_d);
+        c_4 = sub(c_4, m_d);
     }
 
-    return add_tree({mult(m1, masks[0]), mult(m2, masks[1]), mult(m3, masks[2]), mult(m4, masks[3])});
+    return add_tree({mult(c_1, masks[0]), mult(c_2, masks[1]), mult(c_3, masks[2]), mult(c_4, masks[3])});
 
 }
 
@@ -375,15 +375,15 @@ vector<Ptxt> FHEController::generate_layer_masks(int encoding_level, int num_slo
             for (int j = 0; j < pow(2, round); j++) {
                 mask_1.push_back(0);
                 mask_2.push_back(0);
-                mask_3.push_back(mask_value);
-                mask_4.push_back(0);
+                mask_3.push_back(0);
+                mask_4.push_back(mask_value);
             }
 
             for (int j = 0; j < pow(2, round); j++) {
                 mask_1.push_back(0);
                 mask_2.push_back(0);
-                mask_3.push_back(0);
-                mask_4.push_back(mask_value);
+                mask_3.push_back(mask_value);
+                mask_4.push_back(0);
             }
         }
 

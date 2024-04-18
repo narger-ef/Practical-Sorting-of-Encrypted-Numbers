@@ -45,6 +45,9 @@ int main(int argc, char *argv[]) {
     }
 
     cout << "Input vector: " << input_values << endl;
+    cout << "Arguments: poly_degree: " << poly_degree << ", toy_parameters: " << toy_parameters
+         << ", scaling_factor: " << scaling_factor << ", error_correction: " << error_correction
+         << ", verbose: " << verbose << endl;
 
     int num_values = input_values.size();
 
@@ -85,7 +88,8 @@ int main(int argc, char *argv[]) {
             if (verbose) print_duration(start_time_local, "Swap");
             start_time_local = steady_clock::now();
 
-            if (verbose) controller.print(in);
+            //if (verbose) controller.print(in);
+            controller.decrypt(in);
 
             if (current_iteration < iterations)
                 in = controller.bootstrap(in);
