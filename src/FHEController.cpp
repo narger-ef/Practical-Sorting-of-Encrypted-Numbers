@@ -181,6 +181,18 @@ Ctxt FHEController::sub(const Ctxt &a, const Ctxt &b) {
 }
 
 /**
+ * Perform a slot-wise subtraction operation between a ciphertext
+ * and a plaintext
+ *
+ * @param c The ciphertext.
+ * @param p The plaintext.
+ * @return The result of subtraction operation.
+ */
+Ctxt FHEController::sub(const Ctxt &c, const Ptxt &p) {
+    return context->EvalSub(c, p);
+}
+
+/**
  * Perform a slot-wise multiplication operation between a ciphertext
  * and a plaintext
  *
@@ -279,6 +291,52 @@ Ctxt FHEController::swap(const Ctxt &in, int delta, int round, int stage, int po
 }
 
 /**
+ * Evaluates a layer of a Sorting Network. In particular, it performs the swap
+ * operation exploiting the SIMD parallelism in order to evaluate a whole layer.
+ * See (TODO add link) for a clear implementation
+ *
+ * @param in The input vector
+ * @param delta The delta value, i.e., the distance between compared elements
+ * @param round The current round
+ * @param stage The current stage
+ * @param poly_degree The degree of the ReLU Chebyshev polynomial
+ * @param codomain A container of Min, Max and Range of the approximation, used to correct the values to [0, 1]
+ * @return The vector obtained by applying the swapping opeartions
+ */
+Ctxt FHEController::swap(const Ctxt &in, int delta, int round, int stage, int poly_degree, vector<double> codomain) {
+    Ctxt rot_pos = rot(in, delta);
+    Ctxt rot_neg = rot(in, -delta);
+
+    // This performs the evaluation of the min function
+    Ctxt m1 = min(in, rot_pos, poly_degree);
+
+    // The other values are obtained in function of m1
+    Ctxt m3 = sub(add(in, rot_pos), m1);
+    Ctxt m4 = rot(m1, -delta);
+    Ctxt m2 = sub(add(in, rot_neg), m4);
+
+    double mask_value = 1;
+
+    if (!codomain.empty()) {
+        mask_value = 1 / codomain[2];
+    }
+
+    vector<Ptxt> masks = generate_layer_masks(m1->GetLevel(), m1->GetSlots(), round, stage, mask_value);
+
+    if (!codomain.empty()) {
+        Ptxt m_d = encode(codomain[0], m1->GetLevel(), m1->GetSlots());
+
+        m1 = sub(m1, m_d);
+        m2 = sub(m2, m_d);
+        m3 = sub(m3, m_d);
+        m4 = sub(m4, m_d);
+    }
+
+    return add_tree({mult(m1, masks[0]), mult(m2, masks[1]), mult(m3, masks[2]), mult(m4, masks[3])});
+
+}
+
+/**
  * Generates a set of four masks to be applied to the four comparison vectors
  *
  * @param encoding_level The level at which the masks must be encoded
@@ -288,14 +346,14 @@ Ctxt FHEController::swap(const Ctxt &in, int delta, int round, int stage, int po
  * @return Four masks to be applied to the four comparison vectors for extracting the
  * required values
  */
-vector<Ptxt> FHEController::generate_layer_masks(int encoding_level, int num_slots, int round, int stage) {
+vector<Ptxt> FHEController::generate_layer_masks(int encoding_level, int num_slots, int round, int stage, double mask_value) {
     vector<double> mask_1, mask_2, mask_3, mask_4;
 
     for (int i = 0; i < num_slots / (pow(2, round + 2)); i++) {
 
         for (int times = 0; times < pow(2, stage); times++) {
             for (int j = 0; j < pow(2, round); j++) {
-                mask_1.push_back(1);
+                mask_1.push_back(mask_value);
                 mask_2.push_back(0);
                 mask_3.push_back(0);
                 mask_4.push_back(0);
@@ -303,7 +361,7 @@ vector<Ptxt> FHEController::generate_layer_masks(int encoding_level, int num_slo
 
             for (int j = 0; j < pow(2, round); j++) {
                 mask_1.push_back(0);
-                mask_2.push_back(1);
+                mask_2.push_back(mask_value);
                 mask_3.push_back(0);
                 mask_4.push_back(0);
             }
@@ -317,7 +375,7 @@ vector<Ptxt> FHEController::generate_layer_masks(int encoding_level, int num_slo
             for (int j = 0; j < pow(2, round); j++) {
                 mask_1.push_back(0);
                 mask_2.push_back(0);
-                mask_3.push_back(1);
+                mask_3.push_back(mask_value);
                 mask_4.push_back(0);
             }
 
@@ -325,7 +383,7 @@ vector<Ptxt> FHEController::generate_layer_masks(int encoding_level, int num_slo
                 mask_1.push_back(0);
                 mask_2.push_back(0);
                 mask_3.push_back(0);
-                mask_4.push_back(1);
+                mask_4.push_back(mask_value);
             }
         }
 

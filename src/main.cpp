@@ -10,14 +10,18 @@ using namespace std::chrono;
 
 void read_arguments(int argc, char *argv[]);
 
-/*
+/**
  * Arguments parameters
  */
-int poly_degree = 247;
+// Degree of the Chebyshev ReLU approximation
+int poly_degree = 245;
+
+// Input
 vector<double> input_values = {};
 bool verbose = false;
 bool toy_parameters = false;
 double scaling_factor = 1;
+bool error_correction = false;
 
 int main(int argc, char *argv[]) {
     FHEController controller;
@@ -32,7 +36,13 @@ int main(int argc, char *argv[]) {
         //return -1;
     }
 
-    cout << "Scaling factor: " << scaling_factor << endl;
+    vector<double> codomain = {};
+    //Position 0: Minimum
+    //Position 1: Maximum
+    //Position 2: Range
+    if (error_correction) {
+        codomain = get_codomain(poly_degree);
+    }
 
     cout << "Input vector: " << input_values << endl;
 
@@ -50,7 +60,8 @@ int main(int argc, char *argv[]) {
 
     Ctxt in = controller.encrypt(input_values, circuit_depth - levels_consumption - 3, num_values);
 
-    if (scaling_factor != 1) in = controller.mult(in, 1 / scaling_factor);
+    if (scaling_factor != 1)
+        in = controller.mult(in, 1 / scaling_factor);
 
     controller.print(in);
 
@@ -68,11 +79,13 @@ int main(int argc, char *argv[]) {
             int round = j;
 
             auto start_time_local = steady_clock::now();
-            in = controller.swap(in, delta, stage, round, poly_degree);
+
+            in = controller.swap(in, delta, stage, round, poly_degree, codomain);
+
             if (verbose) print_duration(start_time_local, "Swap");
             start_time_local = steady_clock::now();
 
-            controller.decrypt(in);
+            if (verbose) controller.print(in);
 
             if (current_iteration < iterations)
                 in = controller.bootstrap(in);
@@ -95,6 +108,11 @@ int main(int argc, char *argv[]) {
     cout << setprecision(4) << fixed;
     cout << "Expected: " << input_values << endl << "Obtained: ";
     controller.print(in);
+
+    vector<double> fhe_result = controller.decode(controller.decrypt(in));
+
+    cout << "Infinity norm : " << infinity_norm(input_values, fhe_result) << endl;
+    cout << "Precision bits: " << precision_bits(input_values, fhe_result) << endl;
 
     return 0;
 }
@@ -144,6 +162,10 @@ void read_arguments(int argc, char *argv[]) {
 
         if (string(argv[i]) == "--toy_parameters") {
             toy_parameters = true;
+        }
+
+        if (string(argv[i]) == "--error_correction") {
+            error_correction = true;
         }
 
         if (string(argv[i]) == "--scaling_factor" && i + 1 < argc) {

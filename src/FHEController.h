@@ -1,5 +1,5 @@
-#ifndef ORDERING_FHECONTROLLER_H
-#define ORDERING_FHECONTROLLER_H
+#ifndef SORTING_FHECONTROLLER_H
+#define SORTING_FHECONTROLLER_H
 
 #include "openfhe.h"
 #include "ciphertext-ser.h"
@@ -63,6 +63,9 @@ public:
     // Subtract one ciphertext from another
     Ctxt sub(const Ctxt& c1, const Ctxt& c2);
 
+    // Subtract a ciphertext by a plaintext
+    Ctxt sub(const Ctxt& c, const Ptxt& p);
+
     // Multiply a ciphertext by a plaintext
     Ctxt mult(const Ctxt& c, const Ptxt& p);
 
@@ -85,8 +88,11 @@ public:
     // Perform a swap operation in a sorting network
     Ctxt swap(const Ctxt &a, int delta, int round, int stage, int poly_degree);
 
+    // Perform a swap operation in a sorting network with errors correction
+    Ctxt swap(const Ctxt &a, int delta, int round, int stage, int poly_degree, vector<double> codomain);
+
     // Generate masks for a sorting network layer
-    vector<Ptxt> generate_layer_masks(int encoding_level, int length, int round, int stage);
+    vector<Ptxt> generate_layer_masks(int encoding_level, int length, int round, int stage, double mask_value = 1.0);
 
 
     /**
@@ -100,4 +106,4 @@ private:
     KeyPair<DCRTPoly> key_pair; // Key pair for the FHE system
 };
 
-#endif //ORDERING_FHECONTROLLER_H
+#endif //SORTING_FHECONTROLLER_H
