@@ -98,3 +98,7 @@ It is also possible to change the behavior of the program by using some optional
 
 
 ## How it works
+
+## Citing
+
+## Authors
