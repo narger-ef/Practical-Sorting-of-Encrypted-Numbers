@@ -84,14 +84,14 @@ It is also possible to change the behavior of the program by using some optional
 ./Sort --random 8 --toy_parameters
 ```
 
-- `--verbose`: when this argument is present, the program will give more information to the user about what is happening behind the scenes. For example:
+- `--verbose N`: define the quantity of information. `N = 0` does not print any message, apart from the result. `N = 1` gives basic information. `N = 2` gives all the details. Default is 0. For example:
 ```
-./Sort --random 8 --toy_parameters --verbose
+./Sort --random 8 --toy_parameters --verbose 1
 ```
 
 - `--poly_degree`: the degree of the Chebyshev polynomial approximating the ReLU function. Suggested values, from [here](https://github.com/openfheorg/openfhe-development/blob/main/src/pke/examples/FUNCTION_EVALUATION.md): 119, 247, 495
 ```
-./Sort --random 8 --poly_degree 247 --verbose
+./Sort --random 8 --poly_degree 247
 ```
 
 - `--scaling_factor`: the input values will be scaled (divided) by this value. Useful if the input values are not in $[0, 1]$, but in $[0, r]$, where $r$ is the scaling factor (default is `scaling_factor = 1`)
