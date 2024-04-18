@@ -1,5 +1,4 @@
-<p align="center">
-
+<center> 
   <h1 align="center">Practical Sorting of Encrypted Numbers</h1>
   <img src="imgs/console_noback.png" alt="Console presentation image" width=92% >
   <p align="center">
@@ -7,7 +6,7 @@
     ·
     <a href="https://orcid.org/0000-0002-8105-4371"><strong>Alberto Leporati</strong></a>
   </p>
-</p>
+</center>
 
 
 <a href='https://mcrespo.me/publications/primary-space-cv/data/crespo2021primary.pdf'>
