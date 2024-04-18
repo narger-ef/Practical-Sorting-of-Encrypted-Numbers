@@ -6,8 +6,9 @@
     ·
     <a href="https://orcid.org/0000-0002-8105-4371"><strong>Alberto Leporati</strong></a>
   </p>
-  <sup>University of Milan-Bicocca, Department of Informatics, Systems, and Communication, 
-  Viale Sarca 336, Edificio U14, 20126 Milano, Italy</sup>
+  <p align="center"><sup>University of Milan-Bicocca, <br>
+    Department of Informatics, Systems, and Communication, <br>
+  Viale Sarca 336, Edificio U14, 20126 Milano, Italy</sup></p>
 </center>
 </br>
 <a href='https://mcrespo.me/publications/primary-space-cv/data/crespo2021primary.pdf'>
