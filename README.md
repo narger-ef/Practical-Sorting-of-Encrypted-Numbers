@@ -8,7 +8,10 @@
   </p>
   <p align="center"><sup>University of Milan-Bicocca, <br>
     Department of Informatics, Systems, and Communication, <br>
-  Viale Sarca 336, Edificio U14, 20126 Milano, Italy</sup></p>
+  Viale Sarca 336, Edificio U14, 20126 Milano, Italy <br>
+  $\texttt{\{lorenzo.rovida, alberto.leporati\}@unimib.it}$
+  
+  </sup></p>
 </center>
 </br>
 <a href='https://mcrespo.me/publications/primary-space-cv/data/crespo2021primary.pdf'>
