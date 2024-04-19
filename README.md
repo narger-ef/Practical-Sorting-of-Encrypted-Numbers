@@ -13,7 +13,7 @@
   </sup></p></span>
 </center>
 </br>
- <p align="center"><img src="imgs/console_noback.png" alt="Console presentation image" width=95% ></p>
+<p align="center"><img src="imgs/console_noback.png" alt="Console presentation image" width=100% ></p>
 <img src="https://img.shields.io/badge/Paper%20-PDF-red.svg" alt="Paper PDF" width=10%>
 
 ---
@@ -84,14 +84,14 @@ It is also possible to change the behavior of the program by using some optional
 ./Sort --random 8 --toy_parameters
 ```
 
-- `--verbose`: when this argument is present, the program will give more information to the user about what is happening behind the scenes. For example:
+- `--verbose N`: define the quantity of information. `N = -1` does not print anything, `N = 0` prints only the result, `N = 1` gives basic information and `N = 2` gives all the details. Default is 0. For example:
 ```
-./Sort --random 8 --toy_parameters --verbose
+./Sort --random 8 --toy_parameters --verbose 1
 ```
 
 - `--poly_degree`: the degree of the Chebyshev polynomial approximating the ReLU function. Suggested values, from [here](https://github.com/openfheorg/openfhe-development/blob/main/src/pke/examples/FUNCTION_EVALUATION.md): 119, 247, 495
 ```
-./Sort --random 8 --poly_degree 247 --verbose
+./Sort --random 8 --poly_degree 247
 ```
 
 - `--scaling_factor`: the input values will be scaled (divided) by this value. Useful if the input values are not in $[0, 1]$, but in $[0, r]$, where $r$ is the scaling factor (default is `scaling_factor = 1`)
@@ -108,6 +108,9 @@ The above code will not work without the `error_correction` flag.
 
 
 ## How it works
+
+The circuit implements the Bitonic Sort algorithm, which creates a sorting network that sorts $2^n$ values.
+<p><img src="imgs/sorting_network.png" alt="Sorting network with eight inputs" width=75% ></p>
 
 ## Citing
 
