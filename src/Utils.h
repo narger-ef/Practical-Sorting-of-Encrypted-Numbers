@@ -9,6 +9,11 @@
 #include <algorithm> // for shuffle
 #include <numeric>   // for iota
 
+#define GREEN_TEXT "\033[1;32m"
+#define RED_TEXT "\033[1;31m"
+#define YELLOW_TEXT "\033[1;33m"
+#define RESET_COLOR "\033[0m"
+
 using namespace std;
 
 vector<double> generate_random_vector(int num_values) {
@@ -34,25 +39,25 @@ int poly_evaluation_cost(int degree) {
     //Cost for running the Paterson-Stockmeyer algorithm
     //https://github.com/openfheorg/openfhe-development/blob/main/src/pke/examples/FUNCTION_EVALUATION.md
 
-    if (degree < 5) {
+    if (degree <= 5) {
         return 3;
-    } else if (degree < 13) {
+    } else if (degree <= 13) {
         return 4;
-    } else if (degree < 27) {
+    } else if (degree <= 27) {
         return 5;
-    } else if (degree < 27) {
+    } else if (degree <= 27) {
         return 6;
-    } else if (degree < 59) {
+    } else if (degree <= 59) {
         return 7;
-    } else if (degree < 119) {
+    } else if (degree <= 119) {
         return 8;
-    } else if (degree < 247) {
+    } else if (degree <= 247) {
         return 9;
-    } else if (degree < 495) {
+    } else if (degree <= 495) {
         return 10;
-    } else if (degree < 1007) {
+    } else if (degree <= 1007) {
         return 11;
-    } else if (degree < 2031) {
+    } else if (degree <= 2031) {
         return 12;
     } else {
         cerr << "Use a valid degree!" << endl;
@@ -137,7 +142,7 @@ static inline vector<double> get_codomain(int degree) {
 
     std::string s;
 
-    for(int i = 0; i < degree; ++i)
+    for(int i = 0; i <= degree; ++i)
         std::getline(in, s);
 
     std::getline(in,s);

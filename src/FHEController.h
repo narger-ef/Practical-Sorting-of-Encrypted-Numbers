@@ -29,6 +29,9 @@ public:
     // Generate rotation keys for performing rotations
     void generate_rotation_keys(int num_slots);
 
+    // Load the cryptocontext serialized in "parameters"
+    int load_context(int num_slots, int levels_required);
+
     /**
       * Basic RNS-CKKS operations
       */
@@ -103,6 +106,7 @@ public:
     void print(const Ctxt& c, int slots = 0, string prefix = "");
 
 private:
+    string parameters_folder = "parameters";
     KeyPair<DCRTPoly> key_pair; // Key pair for the FHE system
 };
 

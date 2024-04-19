@@ -20,22 +20,25 @@ int FHEController::generate_context(int num_slots, int levels_required, bool toy
     vector<uint32_t> level_budget;
 
     level_budget = {3, 3};
+    int dcrtBits = 51;
+    int firstMod = 55;
 
     if (toy_parameters) {
         parameters.SetSecurityLevel(lbcrypto::HEStd_NotSet);
         parameters.SetRingDim(1 << 14);
+        dcrtBits = 50;
+        firstMod = 54;
     } else {
         parameters.SetSecurityLevel(lbcrypto::HEStd_128_classic);
         parameters.SetRingDim(1 << 16);
+        dcrtBits = 50;
+        firstMod = 54;
     }
 
     parameters.SetNumLargeDigits(5);
     parameters.SetBatchSize(num_slots);
 
     ScalingTechnique rescaleTech = FLEXIBLEAUTO;
-
-    int dcrtBits = 50;
-    int firstMod = 54;
 
     parameters.SetScalingModSize(dcrtBits);
     parameters.SetScalingTechnique(rescaleTech);
@@ -61,6 +64,84 @@ int FHEController::generate_context(int num_slots, int levels_required, bool toy
     context->EvalBootstrapSetup(level_budget, {0, 0}, num_slots);
     context->EvalBootstrapKeyGen(key_pair.secretKey, num_slots);
 
+    ofstream multKeyFile("../" + parameters_folder + "/mult-keys.txt", ios::out | ios::binary);
+    if (multKeyFile.is_open()) {
+        if (!context->SerializeEvalMultKey(multKeyFile, SerType::BINARY)) {
+            cerr << "Error writing eval mult keys" << std::endl;
+            exit(1);
+        }
+        multKeyFile.close();
+    }
+    else {
+        cerr << "Error serializing EvalMult keys in \"" << "../" + parameters_folder + "/mult-keys.txt" << "\"" << endl;
+        exit(1);
+    }
+
+    if (!Serial::SerializeToFile("../" + parameters_folder + "/crypto-context.txt", context, SerType::BINARY)) {
+        cerr << "Error writing serialization of the crypto context to crypto-context.txt" << endl;
+    }
+
+    if (!Serial::SerializeToFile("../" + parameters_folder + "/public-key.txt", key_pair.publicKey, SerType::BINARY)) {
+        cerr << "Error writing serialization of public key to public-key.txt" << endl;
+    }
+
+    if (!Serial::SerializeToFile("../" + parameters_folder + "/secret-key.txt", key_pair.secretKey, SerType::BINARY)) {
+        cerr << "Error writing serialization of public key to secret-key.txt" << endl;
+    }
+
+    return circuit_depth;
+}
+
+int FHEController::load_context(int num_slots, int levels_required) {
+    if (!Serial::DeserializeFromFile("../" + parameters_folder + "/crypto-context.txt", context, SerType::BINARY)) {
+        cerr << "I cannot read serialized data from: " << "../" + parameters_folder + "/crypto-context.txt" << endl;
+        exit(1);
+    }
+
+    PublicKey<DCRTPoly> clientPublicKey;
+    if (!Serial::DeserializeFromFile("../" + parameters_folder + "/public-key.txt", clientPublicKey, SerType::BINARY)) {
+        cerr << "I cannot read serialized data from public-key.txt" << endl;
+        exit(1);
+    }
+
+    PrivateKey<DCRTPoly> serverSecretKey;
+    if (!Serial::DeserializeFromFile("../" + parameters_folder + "/secret-key.txt", serverSecretKey, SerType::BINARY)) {
+        cerr << "I cannot read serialized data from public-key.txt" << endl;
+        exit(1);
+    }
+
+    key_pair.publicKey = clientPublicKey;
+    key_pair.secretKey = serverSecretKey;
+
+    std::ifstream multKeyIStream("../" + parameters_folder + "/mult-keys.txt", ios::in | ios::binary);
+    if (!multKeyIStream.is_open()) {
+        cerr << "Cannot read serialization from " << "mult-keys.txt" << endl;
+        exit(1);
+    }
+    if (!context->DeserializeEvalMultKey(multKeyIStream, SerType::BINARY)) {
+        cerr << "Could not deserialize eval mult key file" << endl;
+        exit(1);
+    }
+
+    vector<uint32_t> level_budget = {3, 3};
+
+    context->EvalBootstrapSetup(level_budget, {0, 0}, num_slots);
+
+    ifstream rotKeyIStream("../" + parameters_folder + "/rotation-keys.txt", ios::in | ios::binary);
+    if (!rotKeyIStream.is_open()) {
+        cerr << "Cannot read serialization from " << "../" + parameters_folder + "/" << "rotation-keys.txt" << std::endl;
+        exit(1);
+    }
+
+    if (!context->DeserializeEvalAutomorphismKey(rotKeyIStream, SerType::BINARY)) {
+        cerr << "Could not deserialize eval rot key file" << std::endl;
+        exit(1);
+    }
+
+    int levelsUsedBeforeBootstrap = levels_required + 1;
+
+    int circuit_depth = levelsUsedBeforeBootstrap + FHECKKSRNS::GetBootstrapDepth(8, level_budget, SPARSE_TERNARY);
+
     return circuit_depth;
 }
 
@@ -79,6 +160,17 @@ void FHEController::generate_rotation_keys(int num_slots) {
     }
 
     context->EvalRotateKeyGen(key_pair.secretKey, rotations);
+
+    ofstream rotationKeyFile("../" + parameters_folder + "/rotation-keys.txt", ios::out | ios::binary);
+    if (rotationKeyFile.is_open()) {
+        if (!context->SerializeEvalAutomorphismKey(rotationKeyFile, SerType::BINARY)) {
+            cerr << "Error writing rotation keys" << std::endl;
+            exit(1);
+        }
+    } else {
+        cerr << "Error serializing Rotation keys" << "../" + parameters_folder + "/rotation-keys.txt" << std::endl;
+        exit(1);
+    }
 }
 
 /**
