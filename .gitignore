@@ -15,3 +15,4 @@ _deps
 /build-debug
 /.idea
 **/.ipynb_checkpoints
+**/parameters

@@ -9,10 +9,15 @@
 #include <algorithm> // for shuffle
 #include <numeric>   // for iota
 
-#define GREEN_TEXT "\033[1;32m"
-#define RED_TEXT "\033[1;31m"
-#define YELLOW_TEXT "\033[1;33m"
-#define RESET_COLOR "\033[0m"
+//#define GREEN_TEXT "\033[1;32m"
+//#define RED_TEXT "\033[1;31m"
+//#define YELLOW_TEXT "\033[1;33m"
+//#define RESET_COLOR "\033[0m"
+
+#define GREEN_TEXT ""
+#define RED_TEXT ""
+#define YELLOW_TEXT ""
+#define RESET_COLOR ""
 
 using namespace std;
 
@@ -39,26 +44,24 @@ int poly_evaluation_cost(int degree) {
     //Cost for running the Paterson-Stockmeyer algorithm
     //https://github.com/openfheorg/openfhe-development/blob/main/src/pke/examples/FUNCTION_EVALUATION.md
 
-    if (degree <= 5) {
+    if (degree <= 5+1) {
         return 3;
-    } else if (degree <= 13) {
+    } else if (degree <= 13+1) {
         return 4;
-    } else if (degree <= 27) {
+    } else if (degree <= 27+1) {
         return 5;
-    } else if (degree <= 27) {
+    } else if (degree <= 59+1) {
         return 6;
-    } else if (degree <= 59) {
+    } else if (degree <= 119+1) {
         return 7;
-    } else if (degree <= 119) {
+    } else if (degree <= 247+1) {
         return 8;
-    } else if (degree <= 247) {
+    } else if (degree <= 495+1) {
         return 9;
-    } else if (degree <= 495) {
+    } else if (degree <= 1007+1) {
         return 10;
-    } else if (degree <= 1007) {
+    } else if (degree <= 2031+1) {
         return 11;
-    } else if (degree <= 2031) {
-        return 12;
     } else {
         cerr << "Use a valid degree!" << endl;
         return 0;
@@ -93,7 +96,7 @@ static inline vector<double> parse_input_vector(const std::string& input) {
 
 static inline double infinity_norm(const std::vector<double>& vec1, const std::vector<double>& vec2) {
     double max_diff = 0.0;
-    for (size_t i = 0; i < vec1.size(); ++i) {
+    for (int i = 0; i < vec1.size(); i++) {
         double diff = abs(vec1[i] - vec2[i]);
         if (diff > max_diff) {
             max_diff = diff;
@@ -142,12 +145,14 @@ static inline vector<double> get_codomain(int degree) {
 
     std::string s;
 
-    for(int i = 0; i <= degree; ++i)
+    for(int i = 0; i < degree; ++i)
         std::getline(in, s);
 
     std::getline(in,s);
 
     vector<string> tokens = tokenizer(s, ',');
+
+    cout << "Prendo il codomain di " << tokens[0] << endl;
 
     return {stod(tokens[1]), stod(tokens[2]), stod(tokens[3])};
 }

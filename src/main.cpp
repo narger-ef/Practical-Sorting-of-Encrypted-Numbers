@@ -32,8 +32,8 @@ int main(int argc, char *argv[]) {
     if (input_values.empty()) {
         cout << "Could not parse input arguments, going with default parameters." << endl;
         input_values = generate_random_vector(8);
-        toy_parameters = true;
-        verbose = 1;
+        toy_parameters = false;
+        verbose = 2;
         //return -1;
     }
 
@@ -113,6 +113,7 @@ int main(int argc, char *argv[]) {
     }
 
     // This could be avoided by running the last masking phase with scaling_factor, but whatever
+    if (scaling_factor != 1)
     in = controller.mult(in, scaling_factor);
 
     sort(input_values.begin(), input_values.end());

@@ -26,13 +26,40 @@ int FHEController::generate_context(int num_slots, int levels_required, bool toy
     if (toy_parameters) {
         parameters.SetSecurityLevel(lbcrypto::HEStd_NotSet);
         parameters.SetRingDim(1 << 14);
-        dcrtBits = 50;
-        firstMod = 54;
     } else {
         parameters.SetSecurityLevel(lbcrypto::HEStd_128_classic);
         parameters.SetRingDim(1 << 16);
-        dcrtBits = 50;
-        firstMod = 54;
+    }
+
+    /*
+    if (levels_required <= 6) {
+        level_budget = {5, 5};
+    }
+
+    if (levels_required == 7) {
+        level_budget = {5, 4};
+    }
+
+    if (levels_required == 8) {
+        level_budget = {4, 4};
+    }
+
+    if (levels_required == 9) {
+        level_budget = {4, 3};
+    }
+
+    if (levels_required == 10) {
+        level_budget = {3, 3};
+    }
+
+    */
+
+    if (levels_required == 11) {
+        level_budget = {3, 2};
+    }
+
+    if (levels_required == 12) {
+        level_budget = {2, 2};
     }
 
     parameters.SetNumLargeDigits(5);
@@ -348,7 +375,7 @@ Ctxt FHEController::min(const Ctxt &a, const Ctxt &b, int poly_degree) {
     Ctxt relu = context->EvalChebyshevFunction([](double x) -> double { if (x < 0) return 0; else return x; },
                                                sub(a, b),
                                                -1,
-                                               1, poly_degree);
+                                               1, poly_degree - 1); //-1 because of an OpenFHE bug!!
     return sub(a, relu);
 }
 

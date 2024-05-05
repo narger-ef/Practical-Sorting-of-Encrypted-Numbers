@@ -1,0 +1,2897 @@
+Starting the experiment 1
+generating new context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0656 0.1871 0.3166 0.4344 0.5662 0.6870 0.8093 0.9339 ]
+Precision bits: 7.9296
+⌛(The evaluation of the circuit took): 6:853s, degree: 20
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0654 0.1859 0.3132 0.4384 0.5616 0.6868 0.8140 0.9347 ]
+Precision bits: 8.4529
+⌛(The evaluation of the circuit took): 7:515s, degree: 20
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0664 0.1905 0.3135 0.4371 0.5580 0.6874 0.8168 0.9304 ]
+Precision bits: 7.1340
+⌛(The evaluation of the circuit took): 7:636s, degree: 20
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0695 0.1830 0.3131 0.4419 0.5632 0.6820 0.8127 0.9346 ]
+Precision bits: 7.1610
+⌛(The evaluation of the circuit took): 7:738s, degree: 20
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0652 0.1875 0.3170 0.4334 0.5618 0.6884 0.8167 0.9300 ]
+Precision bits: 7.0670
+⌛(The evaluation of the circuit took): 7:644s, degree: 20
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0697 0.1837 0.3153 0.4332 0.5668 0.6847 0.8163 0.9302 ]
+Precision bits: 7.1036
+⌛(The evaluation of the circuit took): 7:491s, degree: 20
+Degree 20 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0636 0.1907 0.3101 0.4299 0.5636 0.6779 0.8231 0.9410 ]
+Precision bits: 6.5672
+⌛(The evaluation of the circuit took): 7:697s, degree: 21
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0859 0.1679 0.3350 0.4056 0.5627 0.6979 0.8179 0.9271 ]
+Precision bits: 4.9699
+⌛(The evaluation of the circuit took): 8:515s, degree: 21
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0640 0.1997 0.3273 0.4241 0.5655 0.6628 0.8128 0.9438 ]
+Precision bits: 5.3399
+⌛(The evaluation of the circuit took): 7:463s, degree: 21
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0738 0.1794 0.3124 0.4373 0.5806 0.6704 0.8321 0.9140 ]
+Precision bits: 5.4094
+⌛(The evaluation of the circuit took): 7:433s, degree: 21
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0584 0.1790 0.3202 0.4489 0.5872 0.6610 0.8140 0.9315 ]
+Precision bits: 5.2376
+⌛(The evaluation of the circuit took): 8:463s, degree: 21
+Degree 21 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0725 0.1796 0.3210 0.4309 0.5691 0.6790 0.8204 0.9275 ]
+Precision bits: 6.6398
+⌛(The evaluation of the circuit took): 8:153s, degree: 22
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0642 0.1862 0.3140 0.4368 0.5618 0.6874 0.8147 0.9350 ]
+Precision bits: 8.6190
+⌛(The evaluation of the circuit took): 8:153s, degree: 22
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0654 0.1867 0.3132 0.4376 0.5624 0.6868 0.8132 0.9346 ]
+Precision bits: 8.4174
+⌛(The evaluation of the circuit took): 7:868s, degree: 22
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0707 0.1828 0.3118 0.4367 0.5632 0.6882 0.8172 0.9293 ]
+Precision bits: 6.9315
+⌛(The evaluation of the circuit took): 7:802s, degree: 22
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0696 0.1838 0.3165 0.4329 0.5616 0.6875 0.8136 0.9346 ]
+Precision bits: 7.1380
+⌛(The evaluation of the circuit took): 7:959s, degree: 22
+Degree 22 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0613 0.1819 0.3125 0.4442 0.5755 0.6789 0.8216 0.9243 ]
+Precision bits: 6.2364
+⌛(The evaluation of the circuit took): 8:164s, degree: 23
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0603 0.1859 0.3125 0.4388 0.5621 0.6851 0.8161 0.9393 ]
+Precision bits: 8.1396
+⌛(The evaluation of the circuit took): 8:65s, degree: 23
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0652 0.1954 0.3206 0.4309 0.5633 0.6755 0.8106 0.9387 ]
+Precision bits: 6.3795
+⌛(The evaluation of the circuit took): 8:375s, degree: 23
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0717 0.1753 0.3276 0.4269 0.5655 0.6758 0.8215 0.9359 ]
+Precision bits: 6.0574
+⌛(The evaluation of the circuit took): 8:81s, degree: 23
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0605 0.1822 0.3163 0.4376 0.5665 0.6898 0.8168 0.9303 ]
+Precision bits: 7.1113
+⌛(The evaluation of the circuit took): 8:854s, degree: 23
+Degree 23 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0695 0.1844 0.3144 0.4334 0.5623 0.6878 0.8134 0.9349 ]
+Precision bits: 7.1694
+⌛(The evaluation of the circuit took): 8:310s, degree: 24
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0635 0.1900 0.3140 0.4347 0.5653 0.6860 0.8100 0.9365 ]
+Precision bits: 8.4875
+⌛(The evaluation of the circuit took): 7:968s, degree: 24
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0651 0.1872 0.3125 0.4367 0.5624 0.6869 0.8137 0.9355 ]
+Precision bits: 8.5999
+⌛(The evaluation of the circuit took): 8:458s, degree: 24
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0695 0.1838 0.3117 0.4365 0.5621 0.6860 0.8168 0.9334 ]
+Precision bits: 7.1536
+⌛(The evaluation of the circuit took): 8:262s, degree: 24
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0725 0.1794 0.3100 0.4394 0.5686 0.6822 0.8117 0.9361 ]
+Precision bits: 6.6377
+⌛(The evaluation of the circuit took): 8:523s, degree: 24
+Degree 24 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1863 0.3102 0.4378 0.5622 0.6897 0.8137 0.9371 ]
+Precision bits: 8.7885
+⌛(The evaluation of the circuit took): 8:310s, degree: 25
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1902 0.3129 0.4388 0.5627 0.6889 0.8112 0.9327 ]
+Precision bits: 7.7079
+⌛(The evaluation of the circuit took): 8:387s, degree: 25
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0654 0.1840 0.3113 0.4391 0.5613 0.6889 0.8117 0.9383 ]
+Precision bits: 8.1622
+⌛(The evaluation of the circuit took): 8:110s, degree: 25
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0643 0.1877 0.3088 0.4397 0.5600 0.6916 0.8121 0.9358 ]
+Precision bits: 7.9044
+⌛(The evaluation of the circuit took): 7:856s, degree: 25
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0664 0.1861 0.3138 0.4384 0.5611 0.6859 0.8128 0.9355 ]
+Precision bits: 7.9754
+⌛(The evaluation of the circuit took): 7:870s, degree: 25
+Degree 25 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0649 0.1883 0.3165 0.4331 0.5611 0.6881 0.8194 0.9286 ]
+Precision bits: 6.8168
+⌛(The evaluation of the circuit took): 7:410s, degree: 26
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0689 0.1835 0.3117 0.4381 0.5670 0.6835 0.8122 0.9350 ]
+Precision bits: 7.2871
+⌛(The evaluation of the circuit took): 7:568s, degree: 26
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0684 0.1849 0.3181 0.4307 0.5606 0.6878 0.8143 0.9353 ]
+Precision bits: 7.1903
+⌛(The evaluation of the circuit took): 8:518s, degree: 26
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0650 0.1897 0.3098 0.4370 0.5631 0.6902 0.8103 0.9350 ]
+Precision bits: 8.5131
+⌛(The evaluation of the circuit took): 8:74s, degree: 26
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0699 0.1810 0.3123 0.4377 0.5669 0.6850 0.8122 0.9352 ]
+Precision bits: 7.0862
+⌛(The evaluation of the circuit took): 7:845s, degree: 26
+Degree 26 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0576 0.1885 0.3147 0.4364 0.5604 0.6839 0.8110 0.9475 ]
+Precision bits: 6.6444
+⌛(The evaluation of the circuit took): 7:793s, degree: 27
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0586 0.1854 0.3122 0.4422 0.5613 0.6916 0.8097 0.9389 ]
+Precision bits: 7.7283
+⌛(The evaluation of the circuit took): 7:736s, degree: 27
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0586 0.1854 0.3122 0.4422 0.5613 0.6917 0.8097 0.9389 ]
+Precision bits: 7.7296
+⌛(The evaluation of the circuit took): 7:708s, degree: 27
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0579 0.1799 0.3077 0.4423 0.5632 0.6970 0.8135 0.9386 ]
+Precision bits: 6.7180
+⌛(The evaluation of the circuit took): 7:796s, degree: 27
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0497 0.1954 0.3167 0.4431 0.5586 0.6881 0.8108 0.9376 ]
+Precision bits: 6.2869
+⌛(The evaluation of the circuit took): 8:33s, degree: 27
+Degree 27 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0666 0.1852 0.3140 0.4351 0.5623 0.6877 0.8130 0.9361 ]
+Precision bits: 7.9163
+⌛(The evaluation of the circuit took): 7:937s, degree: 28
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0640 0.1870 0.3123 0.4377 0.5623 0.6875 0.8130 0.9362 ]
+Precision bits: 9.3650
+⌛(The evaluation of the circuit took): 7:795s, degree: 28
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0691 0.1825 0.3150 0.4352 0.5674 0.6827 0.8149 0.9332 ]
+Precision bits: 7.2367
+⌛(The evaluation of the circuit took): 7:646s, degree: 28
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0693 0.1828 0.3150 0.4347 0.5620 0.6875 0.8127 0.9361 ]
+Precision bits: 7.2063
+⌛(The evaluation of the circuit took): 8:22s, degree: 28
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0634 0.1870 0.3130 0.4376 0.5625 0.6875 0.8131 0.9360 ]
+Precision bits: 9.3324
+⌛(The evaluation of the circuit took): 7:676s, degree: 28
+Degree 28 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0539 0.1893 0.3113 0.4435 0.5565 0.6887 0.8107 0.9461 ]
+Precision bits: 6.8621
+⌛(The evaluation of the circuit took): 7:734s, degree: 29
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0640 0.1947 0.3070 0.4358 0.5583 0.6847 0.8066 0.9488 ]
+Precision bits: 6.4721
+⌛(The evaluation of the circuit took): 7:792s, degree: 29
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0514 0.1940 0.3116 0.4418 0.5643 0.6927 0.8013 0.9431 ]
+Precision bits: 6.4790
+⌛(The evaluation of the circuit took): 8:248s, degree: 29
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0593 0.1929 0.3098 0.4411 0.5591 0.6898 0.8075 0.9403 ]
+Precision bits: 7.5161
+⌛(The evaluation of the circuit took): 8:56s, degree: 29
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0480 0.2012 0.3152 0.4309 0.5507 0.6963 0.8171 0.9405 ]
+Precision bits: 6.1099
+⌛(The evaluation of the circuit took): 7:757s, degree: 29
+Degree 29 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0652 0.1858 0.3119 0.4380 0.5624 0.6877 0.8162 0.9327 ]
+Precision bits: 7.7105
+⌛(The evaluation of the circuit took): 7:975s, degree: 30
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0654 0.1856 0.3162 0.4341 0.5621 0.6875 0.8126 0.9366 ]
+Precision bits: 8.0855
+⌛(The evaluation of the circuit took): 7:868s, degree: 30
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0651 0.1858 0.3122 0.4383 0.5640 0.6874 0.8108 0.9363 ]
+Precision bits: 8.5569
+⌛(The evaluation of the circuit took): 7:901s, degree: 30
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0672 0.1837 0.3123 0.4376 0.5620 0.6882 0.8141 0.9348 ]
+Precision bits: 7.7316
+⌛(The evaluation of the circuit took): 7:878s, degree: 30
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0637 0.1888 0.3125 0.4379 0.5605 0.6875 0.8140 0.9350 ]
+Precision bits: 8.6266
+⌛(The evaluation of the circuit took): 7:917s, degree: 30
+Degree 30 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0643 0.1900 0.3128 0.4373 0.5624 0.6871 0.8103 0.9358 ]
+Precision bits: 8.6299
+⌛(The evaluation of the circuit took): 7:934s, degree: 31
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0503 0.2002 0.3207 0.4323 0.5546 0.6903 0.8148 0.9368 ]
+Precision bits: 6.2998
+⌛(The evaluation of the circuit took): 8:159s, degree: 31
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0617 0.1878 0.3168 0.4365 0.5616 0.6931 0.8080 0.9345 ]
+Precision bits: 7.4881
+⌛(The evaluation of the circuit took): 7:671s, degree: 31
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0652 0.1876 0.3093 0.4359 0.5657 0.6953 0.8035 0.9377 ]
+Precision bits: 6.7941
+⌛(The evaluation of the circuit took): 8:494s, degree: 31
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0567 0.1923 0.3108 0.4442 0.5557 0.6892 0.8077 0.9433 ]
+Precision bits: 7.2074
+⌛(The evaluation of the circuit took): 7:868s, degree: 31
+Degree 31 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0632 0.1879 0.3126 0.4377 0.5643 0.6849 0.8139 0.9355 ]
+Precision bits: 8.5847
+⌛(The evaluation of the circuit took): 7:707s, degree: 32
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0632 0.1876 0.3122 0.4377 0.5635 0.6864 0.8152 0.9343 ]
+Precision bits: 8.3010
+⌛(The evaluation of the circuit took): 8:185s, degree: 32
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0641 0.1866 0.3125 0.4380 0.5636 0.6867 0.8122 0.9362 ]
+Precision bits: 9.2670
+⌛(The evaluation of the circuit took): 8:145s, degree: 32
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0635 0.1879 0.3122 0.4373 0.5631 0.6864 0.8152 0.9343 ]
+Precision bits: 8.2884
+⌛(The evaluation of the circuit took): 7:507s, degree: 32
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0635 0.1880 0.3119 0.4378 0.5618 0.6890 0.8110 0.9369 ]
+Precision bits: 9.3588
+⌛(The evaluation of the circuit took): 7:921s, degree: 32
+Degree 32 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0596 0.1819 0.3093 0.4458 0.5678 0.6826 0.8065 0.9466 ]
+Precision bits: 6.7719
+⌛(The evaluation of the circuit took): 7:996s, degree: 33
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0580 0.1924 0.3067 0.4398 0.5647 0.6865 0.8021 0.9497 ]
+Precision bits: 6.3538
+⌛(The evaluation of the circuit took): 7:708s, degree: 33
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0495 0.1983 0.3141 0.4344 0.5560 0.6959 0.8132 0.9387 ]
+Precision bits: 6.2578
+⌛(The evaluation of the circuit took): 7:701s, degree: 33
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0586 0.1927 0.3066 0.4398 0.5642 0.6890 0.8078 0.9413 ]
+Precision bits: 7.4049
+⌛(The evaluation of the circuit took): 8:442s, degree: 33
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0527 0.1927 0.3002 0.4489 0.5666 0.6817 0.8174 0.9398 ]
+Precision bits: 6.3394
+⌛(The evaluation of the circuit took): 8:342s, degree: 33
+Degree 33 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0636 0.1866 0.3135 0.4372 0.5624 0.6876 0.8124 0.9367 ]
+Precision bits: 9.7726
+⌛(The evaluation of the circuit took): 8:20s, degree: 34
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0648 0.1864 0.3124 0.4373 0.5624 0.6870 0.8127 0.9371 ]
+Precision bits: 8.7890
+⌛(The evaluation of the circuit took): 8:326s, degree: 34
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0631 0.1879 0.3124 0.4376 0.5626 0.6866 0.8134 0.9364 ]
+Precision bits: 9.8127
+⌛(The evaluation of the circuit took): 8:207s, degree: 34
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0635 0.1878 0.3119 0.4377 0.5624 0.6884 0.8114 0.9369 ]
+Precision bits: 9.7833
+⌛(The evaluation of the circuit took): 7:731s, degree: 34
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0636 0.1866 0.3139 0.4367 0.5626 0.6875 0.8121 0.9370 ]
+Precision bits: 9.4813
+⌛(The evaluation of the circuit took): 8:136s, degree: 34
+Degree 34 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0616 0.1879 0.3074 0.4409 0.5567 0.6934 0.8139 0.9381 ]
+Precision bits: 7.3973
+⌛(The evaluation of the circuit took): 7:808s, degree: 35
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0512 0.1965 0.3039 0.4454 0.5547 0.6960 0.8035 0.9488 ]
+Precision bits: 6.4636
+⌛(The evaluation of the circuit took): 8:151s, degree: 35
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0590 0.1888 0.3109 0.4372 0.5574 0.6923 0.8080 0.9463 ]
+Precision bits: 6.8268
+⌛(The evaluation of the circuit took): 8:26s, degree: 35
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0592 0.1859 0.3139 0.4353 0.5647 0.6860 0.8141 0.9409 ]
+Precision bits: 8.2270
+⌛(The evaluation of the circuit took): 8:203s, degree: 35
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0616 0.1861 0.3074 0.4407 0.5655 0.6858 0.8086 0.9443 ]
+Precision bits: 7.2043
+⌛(The evaluation of the circuit took): 8:131s, degree: 35
+Degree 35 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0636 0.1872 0.3123 0.4374 0.5623 0.6874 0.8128 0.9372 ]
+Precision bits: 9.8610
+⌛(The evaluation of the circuit took): 7:915s, degree: 36
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1877 0.3123 0.4372 0.5626 0.6871 0.8130 0.9372 ]
+Precision bits: 11.0759
+⌛(The evaluation of the circuit took): 8:351s, degree: 36
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1877 0.3123 0.4375 0.5624 0.6870 0.8130 0.9371 ]
+Precision bits: 11.0137
+⌛(The evaluation of the circuit took): 8:93s, degree: 36
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0636 0.1875 0.3120 0.4378 0.5626 0.6872 0.8128 0.9365 ]
+Precision bits: 9.8322
+⌛(The evaluation of the circuit took): 8:271s, degree: 36
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1877 0.3123 0.4375 0.5625 0.6877 0.8123 0.9371 ]
+Precision bits: 11.5238
+⌛(The evaluation of the circuit took): 7:742s, degree: 36
+Degree 36 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1900 0.3099 0.4402 0.5569 0.6907 0.8109 0.9387 ]
+Precision bits: 7.4823
+⌛(The evaluation of the circuit took): 7:984s, degree: 37
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0613 0.1881 0.3151 0.4366 0.5634 0.6849 0.8118 0.9387 ]
+Precision bits: 8.5466
+⌛(The evaluation of the circuit took): 7:858s, degree: 37
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0575 0.1930 0.3104 0.4417 0.5623 0.6855 0.8100 0.9397 ]
+Precision bits: 7.5083
+⌛(The evaluation of the circuit took): 8:172s, degree: 37
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0612 0.1877 0.3137 0.4377 0.5663 0.6847 0.8107 0.9380 ]
+Precision bits: 8.0230
+⌛(The evaluation of the circuit took): 7:856s, degree: 37
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0617 0.1903 0.3093 0.4410 0.5546 0.6860 0.8169 0.9402 ]
+Precision bits: 6.9848
+⌛(The evaluation of the circuit took): 7:925s, degree: 37
+Degree 37 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1878 0.3131 0.4370 0.5621 0.6879 0.8123 0.9373 ]
+Precision bits: 10.7185
+⌛(The evaluation of the circuit took): 7:817s, degree: 38
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1879 0.3128 0.4374 0.5626 0.6877 0.8122 0.9369 ]
+Precision bits: 10.8204
+⌛(The evaluation of the circuit took): 8:323s, degree: 38
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1877 0.3128 0.4374 0.5627 0.6872 0.8122 0.9375 ]
+Precision bits: 11.6727
+⌛(The evaluation of the circuit took): 8:57s, degree: 38
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1876 0.3121 0.4378 0.5628 0.6872 0.8121 0.9376 ]
+Precision bits: 11.2716
+⌛(The evaluation of the circuit took): 7:866s, degree: 38
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1877 0.3127 0.4375 0.5626 0.6875 0.8122 0.9371 ]
+Precision bits: 11.2104
+⌛(The evaluation of the circuit took): 8:476s, degree: 38
+Degree 38 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0575 0.1919 0.3144 0.4374 0.5611 0.6887 0.8092 0.9396 ]
+Precision bits: 7.6542
+⌛(The evaluation of the circuit took): 8:90s, degree: 39
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0515 0.1940 0.3150 0.4387 0.5575 0.6901 0.8132 0.9400 ]
+Precision bits: 6.5115
+⌛(The evaluation of the circuit took): 7:645s, degree: 39
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0519 0.1939 0.3135 0.4375 0.5624 0.6865 0.8062 0.9481 ]
+Precision bits: 6.5537
+⌛(The evaluation of the circuit took): 8:132s, degree: 39
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0601 0.1846 0.3140 0.4409 0.5604 0.6872 0.8064 0.9465 ]
+Precision bits: 6.8000
+⌛(The evaluation of the circuit took): 8:77s, degree: 39
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0583 0.1896 0.3146 0.4371 0.5591 0.6902 0.8049 0.9461 ]
+Precision bits: 6.8542
+⌛(The evaluation of the circuit took): 8:249s, degree: 39
+Degree 39 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1880 0.3123 0.4370 0.5618 0.6881 0.8117 0.9382 ]
+Precision bits: 10.4054
+⌛(The evaluation of the circuit took): 8:135s, degree: 40
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0622 0.1880 0.3124 0.4380 0.5627 0.6873 0.8121 0.9374 ]
+Precision bits: 10.9205
+⌛(The evaluation of the circuit took): 8:342s, degree: 40
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1879 0.3126 0.4380 0.5620 0.6874 0.8120 0.9379 ]
+Precision bits: 10.9465
+⌛(The evaluation of the circuit took): 8:87s, degree: 40
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1880 0.3119 0.4381 0.5630 0.6875 0.8120 0.9374 ]
+Precision bits: 10.6080
+⌛(The evaluation of the circuit took): 8:490s, degree: 40
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1878 0.3127 0.4374 0.5626 0.6873 0.8122 0.9374 ]
+Precision bits: 11.6667
+⌛(The evaluation of the circuit took): 7:979s, degree: 40
+Degree 40 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0559 0.1851 0.3135 0.4393 0.5606 0.6865 0.8149 0.9441 ]
+Precision bits: 7.2364
+⌛(The evaluation of the circuit took): 8:313s, degree: 41
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0565 0.1901 0.3083 0.4393 0.5607 0.6917 0.8099 0.9435 ]
+Precision bits: 7.3791
+⌛(The evaluation of the circuit took): 8:43s, degree: 41
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0530 0.1912 0.3088 0.4441 0.5559 0.6912 0.8088 0.9470 ]
+Precision bits: 6.7199
+⌛(The evaluation of the circuit took): 8:467s, degree: 41
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0587 0.1870 0.3125 0.4395 0.5604 0.6897 0.8092 0.9430 ]
+Precision bits: 7.5060
+⌛(The evaluation of the circuit took): 7:894s, degree: 41
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0560 0.1865 0.3136 0.4385 0.5622 0.6851 0.8162 0.9420 ]
+Precision bits: 7.2692
+⌛(The evaluation of the circuit took): 7:922s, degree: 41
+Degree 41 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1877 0.3121 0.4378 0.5627 0.6872 0.8119 0.9382 ]
+Precision bits: 10.5365
+⌛(The evaluation of the circuit took): 7:958s, degree: 42
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1877 0.3126 0.4375 0.5620 0.6878 0.8118 0.9382 ]
+Precision bits: 10.4239
+⌛(The evaluation of the circuit took): 8:61s, degree: 42
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1877 0.3125 0.4374 0.5616 0.6883 0.8118 0.9382 ]
+Precision bits: 10.1162
+⌛(The evaluation of the circuit took): 8:139s, degree: 42
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1872 0.3125 0.4380 0.5622 0.6879 0.8122 0.9377 ]
+Precision bits: 10.9234
+⌛(The evaluation of the circuit took): 8:501s, degree: 42
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0613 0.1886 0.3126 0.4371 0.5625 0.6875 0.8127 0.9377 ]
+Precision bits: 9.6938
+⌛(The evaluation of the circuit took): 8:566s, degree: 42
+Degree 42 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0553 0.1894 0.3077 0.4387 0.5613 0.6923 0.8106 0.9447 ]
+Precision bits: 7.1134
+⌛(The evaluation of the circuit took): 8:395s, degree: 43
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0567 0.1838 0.3110 0.4407 0.5616 0.6913 0.8105 0.9445 ]
+Precision bits: 7.1432
+⌛(The evaluation of the circuit took): 8:622s, degree: 43
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0546 0.1892 0.3114 0.4359 0.5623 0.6880 0.8145 0.9442 ]
+Precision bits: 6.9759
+⌛(The evaluation of the circuit took): 8:243s, degree: 43
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0567 0.1855 0.3104 0.4407 0.5585 0.6891 0.8163 0.9427 ]
+Precision bits: 7.4317
+⌛(The evaluation of the circuit took): 8:53s, degree: 43
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0558 0.1855 0.3120 0.4378 0.5639 0.6871 0.8127 0.9453 ]
+Precision bits: 6.9985
+⌛(The evaluation of the circuit took): 8:394s, degree: 43
+Degree 43 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0620 0.1875 0.3126 0.4374 0.5625 0.6874 0.8125 0.9380 ]
+Precision bits: 10.9121
+⌛(The evaluation of the circuit took): 8:83s, degree: 44
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0620 0.1875 0.3126 0.4375 0.5625 0.6874 0.8125 0.9380 ]
+Precision bits: 10.9027
+⌛(The evaluation of the circuit took): 8:624s, degree: 44
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0610 0.1885 0.3115 0.4386 0.5614 0.6885 0.8114 0.9391 ]
+Precision bits: 9.3183
+⌛(The evaluation of the circuit took): 8:544s, degree: 44
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0616 0.1880 0.3126 0.4375 0.5621 0.6879 0.8125 0.9379 ]
+Precision bits: 10.0341
+⌛(The evaluation of the circuit took): 8:212s, degree: 44
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0620 0.1875 0.3126 0.4375 0.5615 0.6886 0.8113 0.9391 ]
+Precision bits: 9.3331
+⌛(The evaluation of the circuit took): 8:398s, degree: 44
+Degree 44 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0565 0.1865 0.3121 0.4364 0.5607 0.6895 0.8146 0.9437 ]
+Precision bits: 7.3417
+⌛(The evaluation of the circuit took): 8:401s, degree: 45
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0572 0.1843 0.3121 0.4384 0.5637 0.6888 0.8123 0.9432 ]
+Precision bits: 7.4639
+⌛(The evaluation of the circuit took): 8:239s, degree: 45
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0572 0.1856 0.3107 0.4396 0.5605 0.6892 0.8145 0.9428 ]
+Precision bits: 7.5667
+⌛(The evaluation of the circuit took): 8:649s, degree: 45
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0570 0.1857 0.3119 0.4385 0.5603 0.6893 0.8146 0.9428 ]
+Precision bits: 7.4984
+⌛(The evaluation of the circuit took): 8:61s, degree: 45
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0572 0.1878 0.3092 0.4395 0.5603 0.6873 0.8154 0.9433 ]
+Precision bits: 7.4310
+⌛(The evaluation of the circuit took): 8:794s, degree: 45
+Degree 45 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0617 0.1873 0.3125 0.4375 0.5620 0.6882 0.8120 0.9387 ]
+Precision bits: 9.7542
+⌛(The evaluation of the circuit took): 8:390s, degree: 46
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0618 0.1873 0.3125 0.4375 0.5625 0.6876 0.8127 0.9382 ]
+Precision bits: 10.4040
+⌛(The evaluation of the circuit took): 8:178s, degree: 46
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0608 0.1886 0.3118 0.4380 0.5625 0.6870 0.8132 0.9382 ]
+Precision bits: 9.1578
+⌛(The evaluation of the circuit took): 8:725s, degree: 46
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0617 0.1872 0.3126 0.4377 0.5624 0.6874 0.8128 0.9383 ]
+Precision bits: 10.2183
+⌛(The evaluation of the circuit took): 8:181s, degree: 46
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0618 0.1873 0.3124 0.4375 0.5625 0.6875 0.8127 0.9382 ]
+Precision bits: 10.4320
+⌛(The evaluation of the circuit took): 8:207s, degree: 46
+Degree 46 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0596 0.1881 0.3111 0.4381 0.5611 0.6892 0.8126 0.9402 ]
+Precision bits: 8.4091
+⌛(The evaluation of the circuit took): 8:719s, degree: 47
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0598 0.1868 0.3122 0.4379 0.5619 0.6892 0.8126 0.9396 ]
+Precision bits: 8.5425
+⌛(The evaluation of the circuit took): 8:567s, degree: 47
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0591 0.1869 0.3110 0.4385 0.5630 0.6889 0.8120 0.9407 ]
+Precision bits: 8.1977
+⌛(The evaluation of the circuit took): 8:225s, degree: 47
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0596 0.1877 0.3109 0.4379 0.5622 0.6875 0.8140 0.9402 ]
+Precision bits: 8.4254
+⌛(The evaluation of the circuit took): 8:351s, degree: 47
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0598 0.1868 0.3116 0.4382 0.5620 0.6890 0.8126 0.9401 ]
+Precision bits: 8.5209
+⌛(The evaluation of the circuit took): 8:320s, degree: 47
+Degree 47 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0617 0.1873 0.3124 0.4377 0.5625 0.6870 0.8132 0.9383 ]
+Precision bits: 10.2861
+⌛(The evaluation of the circuit took): 8:719s, degree: 48
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0616 0.1872 0.3126 0.4378 0.5614 0.6886 0.8115 0.9392 ]
+Precision bits: 9.2310
+⌛(The evaluation of the circuit took): 8:727s, degree: 48
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0612 0.1878 0.3122 0.4377 0.5626 0.6876 0.8116 0.9393 ]
+Precision bits: 9.1194
+⌛(The evaluation of the circuit took): 8:368s, degree: 48
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0615 0.1872 0.3126 0.4378 0.5615 0.6886 0.8115 0.9392 ]
+Precision bits: 9.2253
+⌛(The evaluation of the circuit took): 8:788s, degree: 48
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0617 0.1872 0.3120 0.4382 0.5626 0.6874 0.8121 0.9389 ]
+Precision bits: 9.4494
+⌛(The evaluation of the circuit took): 8:315s, degree: 48
+Degree 48 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3128 0.4377 0.5623 0.6872 0.8124 0.9376 ]
+Precision bits: 11.9182
+⌛(The evaluation of the circuit took): 8:228s, degree: 49
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1885 0.3125 0.4380 0.5619 0.6871 0.8115 0.9376 ]
+Precision bits: 9.9215
+⌛(The evaluation of the circuit took): 8:219s, degree: 49
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3127 0.4379 0.5623 0.6872 0.8122 0.9378 ]
+Precision bits: 11.3371
+⌛(The evaluation of the circuit took): 8:667s, degree: 49
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1872 0.3130 0.4378 0.5621 0.6873 0.8118 0.9383 ]
+Precision bits: 10.2749
+⌛(The evaluation of the circuit took): 8:808s, degree: 49
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0618 0.1879 0.3126 0.4378 0.5622 0.6874 0.8123 0.9380 ]
+Precision bits: 10.5351
+⌛(The evaluation of the circuit took): 8:505s, degree: 49
+Degree 49 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0614 0.1879 0.3119 0.4379 0.5625 0.6875 0.8127 0.9382 ]
+Precision bits: 9.9380
+⌛(The evaluation of the circuit took): 8:622s, degree: 50
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0619 0.1872 0.3121 0.4382 0.5619 0.6879 0.8125 0.9383 ]
+Precision bits: 10.3298
+⌛(The evaluation of the circuit took): 8:126s, degree: 50
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0619 0.1869 0.3126 0.4380 0.5619 0.6879 0.8126 0.9383 ]
+Precision bits: 10.3194
+⌛(The evaluation of the circuit took): 8:524s, degree: 50
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0614 0.1878 0.3123 0.4378 0.5619 0.6879 0.8128 0.9381 ]
+Precision bits: 9.7856
+⌛(The evaluation of the circuit took): 8:298s, degree: 50
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0618 0.1872 0.3124 0.4376 0.5622 0.6881 0.8121 0.9386 ]
+Precision bits: 9.8733
+⌛(The evaluation of the circuit took): 8:59s, degree: 50
+Degree 50 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0636 0.1883 0.3128 0.4380 0.5628 0.6863 0.8122 0.9361 ]
+Precision bits: 9.4314
+⌛(The evaluation of the circuit took): 8:299s, degree: 51
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0639 0.1880 0.3125 0.4364 0.5634 0.6871 0.8123 0.9363 ]
+Precision bits: 9.5273
+⌛(The evaluation of the circuit took): 8:382s, degree: 51
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0637 0.1876 0.3129 0.4366 0.5636 0.6875 0.8120 0.9361 ]
+Precision bits: 9.5037
+⌛(The evaluation of the circuit took): 7:847s, degree: 51
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0635 0.1878 0.3134 0.4371 0.5629 0.6866 0.8122 0.9364 ]
+Precision bits: 9.8901
+⌛(The evaluation of the circuit took): 8:394s, degree: 51
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0636 0.1883 0.3136 0.4368 0.5626 0.6872 0.8116 0.9362 ]
+Precision bits: 9.5517
+⌛(The evaluation of the circuit took): 8:350s, degree: 51
+Degree 51 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0618 0.1874 0.3125 0.4375 0.5624 0.6875 0.8126 0.9382 ]
+Precision bits: 10.5172
+⌛(The evaluation of the circuit took): 8:688s, degree: 52
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0619 0.1875 0.3122 0.4380 0.5619 0.6879 0.8127 0.9380 ]
+Precision bits: 10.6476
+⌛(The evaluation of the circuit took): 8:552s, degree: 52
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0619 0.1874 0.3125 0.4375 0.5621 0.6880 0.8121 0.9384 ]
+Precision bits: 10.1592
+⌛(The evaluation of the circuit took): 8:336s, degree: 52
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0616 0.1879 0.3120 0.4378 0.5625 0.6875 0.8126 0.9381 ]
+Precision bits: 10.1556
+⌛(The evaluation of the circuit took): 8:599s, degree: 52
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0616 0.1880 0.3121 0.4379 0.5624 0.6875 0.8126 0.9381 ]
+Precision bits: 10.1408
+⌛(The evaluation of the circuit took): 8:441s, degree: 52
+Degree 52 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0651 0.1894 0.3123 0.4360 0.5636 0.6864 0.8125 0.9347 ]
+Precision bits: 8.4945
+⌛(The evaluation of the circuit took): 8:234s, degree: 53
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0646 0.1881 0.3136 0.4365 0.5639 0.6874 0.8107 0.9352 ]
+Precision bits: 8.7911
+⌛(The evaluation of the circuit took): 8:274s, degree: 53
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0647 0.1889 0.3134 0.4370 0.5627 0.6870 0.8115 0.9347 ]
+Precision bits: 8.4918
+⌛(The evaluation of the circuit took): 8:341s, degree: 53
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0644 0.1897 0.3133 0.4363 0.5618 0.6881 0.8118 0.9345 ]
+Precision bits: 8.3809
+⌛(The evaluation of the circuit took): 8:554s, degree: 53
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0648 0.1895 0.3134 0.4369 0.5626 0.6862 0.8118 0.9348 ]
+Precision bits: 8.5406
+⌛(The evaluation of the circuit took): 8:154s, degree: 53
+Degree 53 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1874 0.3125 0.4376 0.5619 0.6882 0.8121 0.9382 ]
+Precision bits: 10.4155
+⌛(The evaluation of the circuit took): 8:491s, degree: 54
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1871 0.3126 0.4378 0.5624 0.6876 0.8122 0.9382 ]
+Precision bits: 10.4536
+⌛(The evaluation of the circuit took): 7:950s, degree: 54
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9379 ]
+Precision bits: 11.2386
+⌛(The evaluation of the circuit took): 8:812s, degree: 54
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1874 0.3122 0.4379 0.5624 0.6875 0.8122 0.9382 ]
+Precision bits: 10.4757
+⌛(The evaluation of the circuit took): 8:263s, degree: 54
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0618 0.1878 0.3124 0.4375 0.5626 0.6875 0.8119 0.9386 ]
+Precision bits: 9.9093
+⌛(The evaluation of the circuit took): 8:465s, degree: 54
+Degree 54 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0668 0.1871 0.3116 0.4376 0.5625 0.6881 0.8123 0.9339 ]
+Precision bits: 7.8704
+⌛(The evaluation of the circuit took): 8:369s, degree: 55
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0660 0.1878 0.3128 0.4360 0.5641 0.6871 0.8122 0.9340 ]
+Precision bits: 8.1469
+⌛(The evaluation of the circuit took): 8:208s, degree: 55
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0666 0.1877 0.3123 0.4354 0.5648 0.6872 0.8107 0.9353 ]
+Precision bits: 7.9548
+⌛(The evaluation of the circuit took): 8:531s, degree: 55
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0661 0.1878 0.3128 0.4353 0.5648 0.6872 0.8107 0.9354 ]
+Precision bits: 8.1074
+⌛(The evaluation of the circuit took): 8:510s, degree: 55
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0661 0.1881 0.3116 0.4362 0.5640 0.6861 0.8133 0.9347 ]
+Precision bits: 8.1298
+⌛(The evaluation of the circuit took): 8:52s, degree: 55
+Degree 55 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1873 0.3128 0.4374 0.5620 0.6880 0.8119 0.9382 ]
+Precision bits: 10.3914
+⌛(The evaluation of the circuit took): 8:679s, degree: 56
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0622 0.1875 0.3125 0.4375 0.5625 0.6872 0.8128 0.9377 ]
+Precision bits: 11.5368
+⌛(The evaluation of the circuit took): 8:279s, degree: 56
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0619 0.1878 0.3125 0.4376 0.5626 0.6875 0.8122 0.9379 ]
+Precision bits: 10.8165
+⌛(The evaluation of the circuit took): 9:69s, degree: 56
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1875 0.3125 0.4375 0.5620 0.6880 0.8122 0.9380 ]
+Precision bits: 10.8091
+⌛(The evaluation of the circuit took): 8:764s, degree: 56
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1876 0.3125 0.4375 0.5624 0.6875 0.8125 0.9378 ]
+Precision bits: 11.7764
+⌛(The evaluation of the circuit took): 8:703s, degree: 56
+Degree 56 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0650 0.1878 0.3121 0.4364 0.5631 0.6864 0.8151 0.9342 ]
+Precision bits: 8.2447
+⌛(The evaluation of the circuit took): 8:960s, degree: 57
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0645 0.1875 0.3132 0.4356 0.5647 0.6881 0.8105 0.9358 ]
+Precision bits: 8.8073
+⌛(The evaluation of the circuit took): 8:964s, degree: 57
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0650 0.1862 0.3144 0.4365 0.5625 0.6876 0.8121 0.9356 ]
+Precision bits: 8.6440
+⌛(The evaluation of the circuit took): 8:909s, degree: 57
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0654 0.1875 0.3121 0.4352 0.5647 0.6882 0.8105 0.9365 ]
+Precision bits: 8.4407
+⌛(The evaluation of the circuit took): 8:476s, degree: 57
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0648 0.1891 0.3133 0.4352 0.5628 0.6870 0.8145 0.9332 ]
+Precision bits: 7.8745
+⌛(The evaluation of the circuit took): 8:471s, degree: 57
+Degree 57 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0622 0.1877 0.3124 0.4375 0.5623 0.6877 0.8125 0.9376 ]
+Precision bits: 11.7746
+⌛(The evaluation of the circuit took): 8:109s, degree: 58
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0620 0.1878 0.3121 0.4379 0.5626 0.6875 0.8124 0.9376 ]
+Precision bits: 10.9380
+⌛(The evaluation of the circuit took): 8:366s, degree: 58
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1876 0.3123 0.4376 0.5626 0.6874 0.8121 0.9380 ]
+Precision bits: 10.8894
+⌛(The evaluation of the circuit took): 8:321s, degree: 58
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3125 0.4375 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 12.8363
+⌛(The evaluation of the circuit took): 9:20s, degree: 58
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3122 0.4375 0.5627 0.6875 0.8121 0.9380 ]
+Precision bits: 10.9955
+⌛(The evaluation of the circuit took): 9:123s, degree: 58
+Degree 58 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0651 0.1858 0.3137 0.4358 0.5642 0.6863 0.8142 0.9349 ]
+Precision bits: 8.5851
+⌛(The evaluation of the circuit took): 8:789s, degree: 59
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0646 0.1873 0.3126 0.4375 0.5635 0.6854 0.8145 0.9347 ]
+Precision bits: 8.4867
+⌛(The evaluation of the circuit took): 8:457s, degree: 59
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0641 0.1871 0.3129 0.4373 0.5628 0.6872 0.8133 0.9353 ]
+Precision bits: 8.8487
+⌛(The evaluation of the circuit took): 8:943s, degree: 59
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0647 0.1867 0.3138 0.4372 0.5625 0.6874 0.8129 0.9349 ]
+Precision bits: 8.5641
+⌛(The evaluation of the circuit took): 8:802s, degree: 59
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0646 0.1888 0.3121 0.4371 0.5617 0.6876 0.8119 0.9362 ]
+Precision bits: 8.9020
+⌛(The evaluation of the circuit took): 8:961s, degree: 59
+Degree 59 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1876 0.3124 0.4374 0.5626 0.6876 0.8124 0.9375 ]
+Precision bits: 12.7194
+⌛(The evaluation of the circuit took): 8:584s, degree: 60
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0622 0.1878 0.3125 0.4375 0.5625 0.6876 0.8123 0.9375 ]
+Precision bits: 11.8975
+⌛(The evaluation of the circuit took): 8:892s, degree: 60
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1876 0.3125 0.4374 0.5625 0.6875 0.8125 0.9374 ]
+Precision bits: 12.7065
+⌛(The evaluation of the circuit took): 8:953s, degree: 60
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0622 0.1877 0.3124 0.4376 0.5627 0.6875 0.8123 0.9375 ]
+Precision bits: 11.8381
+⌛(The evaluation of the circuit took): 8:675s, degree: 60
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1876 0.3124 0.4376 0.5626 0.6875 0.8124 0.9375 ]
+Precision bits: 12.1513
+⌛(The evaluation of the circuit took): 8:620s, degree: 60
+Degree 60 done
+generating new context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0634 0.1896 0.3110 0.4378 0.5650 0.6844 0.8157 0.9330 ]
+Precision bits: 7.8105
+⌛(The evaluation of the circuit took): 7:770s, degree: 60
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0654 0.1855 0.3144 0.4368 0.5624 0.6875 0.8120 0.9359 ]
+Precision bits: 8.4305
+⌛(The evaluation of the circuit took): 8:443s, degree: 61
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0655 0.1856 0.3138 0.4362 0.5638 0.6862 0.8144 0.9345 ]
+Precision bits: 8.3817
+⌛(The evaluation of the circuit took): 8:655s, degree: 61
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0635 0.1877 0.3144 0.4373 0.5627 0.6873 0.8151 0.9320 ]
+Precision bits: 7.5274
+⌛(The evaluation of the circuit took): 8:917s, degree: 61
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0641 0.1881 0.3118 0.4379 0.5621 0.6882 0.8119 0.9358 ]
+Precision bits: 9.2415
+⌛(The evaluation of the circuit took): 8:591s, degree: 61
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0668 0.1862 0.3122 0.4386 0.5617 0.6862 0.8126 0.9357 ]
+Precision bits: 7.8532
+⌛(The evaluation of the circuit took): 8:699s, degree: 61
+Degree 61 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4376 0.5625 0.6876 0.8124 0.9374 ]
+Precision bits: 12.9603
+⌛(The evaluation of the circuit took): 8:714s, degree: 62
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3126 0.4374 0.5624 0.6876 0.8124 0.9374 ]
+Precision bits: 13.0621
+⌛(The evaluation of the circuit took): 8:615s, degree: 62
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1876 0.3125 0.4375 0.5626 0.6875 0.8123 0.9374 ]
+Precision bits: 12.5858
+⌛(The evaluation of the circuit took): 8:987s, degree: 62
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1877 0.3124 0.4374 0.5625 0.6876 0.8125 0.9375 ]
+Precision bits: 12.6427
+⌛(The evaluation of the circuit took): 8:693s, degree: 62
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3123 0.4375 0.5626 0.6876 0.8123 0.9375 ]
+Precision bits: 12.2657
+⌛(The evaluation of the circuit took): 8:520s, degree: 62
+Degree 62 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0656 0.1850 0.3120 0.4376 0.5624 0.6880 0.8149 0.9344 ]
+Precision bits: 8.3482
+⌛(The evaluation of the circuit took): 8:721s, degree: 63
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0630 0.1865 0.3122 0.4376 0.5623 0.6878 0.8135 0.9370 ]
+Precision bits: 9.9615
+⌛(The evaluation of the circuit took): 8:600s, degree: 63
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1875 0.3123 0.4381 0.5642 0.6863 0.8141 0.9347 ]
+Precision bits: 8.4767
+⌛(The evaluation of the circuit took): 8:536s, degree: 63
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0637 0.1888 0.3121 0.4352 0.5628 0.6865 0.8136 0.9373 ]
+Precision bits: 8.7769
+⌛(The evaluation of the circuit took): 8:964s, degree: 63
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1872 0.3140 0.4371 0.5642 0.6859 0.8130 0.9356 ]
+Precision bits: 9.0082
+⌛(The evaluation of the circuit took): 8:704s, degree: 63
+Degree 63 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1876 0.3124 0.4374 0.5624 0.6876 0.8124 0.9375 ]
+Precision bits: 12.4483
+⌛(The evaluation of the circuit took): 8:559s, degree: 64
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1876 0.3125 0.4375 0.5625 0.6874 0.8124 0.9374 ]
+Precision bits: 13.3275
+⌛(The evaluation of the circuit took): 9:63s, degree: 64
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1876 0.3124 0.4374 0.5625 0.6874 0.8126 0.9374 ]
+Precision bits: 12.6314
+⌛(The evaluation of the circuit took): 8:386s, degree: 64
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5625 0.6875 0.8126 0.9374 ]
+Precision bits: 13.1379
+⌛(The evaluation of the circuit took): 8:589s, degree: 64
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3126 0.4374 0.5624 0.6876 0.8125 0.9374 ]
+Precision bits: 13.2499
+⌛(The evaluation of the circuit took): 8:182s, degree: 64
+Degree 64 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0630 0.1870 0.3125 0.4377 0.5623 0.6875 0.8130 0.9369 ]
+Precision bits: 10.7786
+⌛(The evaluation of the circuit took): 8:72s, degree: 65
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0632 0.1862 0.3143 0.4372 0.5628 0.6857 0.8138 0.9368 ]
+Precision bits: 9.1582
+⌛(The evaluation of the circuit took): 8:336s, degree: 65
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0631 0.1869 0.3123 0.4382 0.5643 0.6859 0.8143 0.9349 ]
+Precision bits: 8.6136
+⌛(The evaluation of the circuit took): 8:641s, degree: 65
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0638 0.1864 0.3144 0.4366 0.5614 0.6880 0.8159 0.9336 ]
+Precision bits: 8.0074
+⌛(The evaluation of the circuit took): 8:723s, degree: 65
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0631 0.1866 0.3124 0.4377 0.5624 0.6876 0.8133 0.9369 ]
+Precision bits: 10.1365
+⌛(The evaluation of the circuit took): 8:716s, degree: 65
+Degree 65 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1875 0.3124 0.4376 0.5625 0.6876 0.8124 0.9374 ]
+Precision bits: 12.6970
+⌛(The evaluation of the circuit took): 8:826s, degree: 66
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1874 0.3124 0.4376 0.5625 0.6875 0.8126 0.9372 ]
+Precision bits: 11.5066
+⌛(The evaluation of the circuit took): 8:875s, degree: 66
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1875 0.3124 0.4375 0.5626 0.6873 0.8124 0.9373 ]
+Precision bits: 12.0688
+⌛(The evaluation of the circuit took): 8:496s, degree: 66
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5624 0.6875 0.8124 0.9374 ]
+Precision bits: 12.7610
+⌛(The evaluation of the circuit took): 8:662s, degree: 66
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4373 0.5625 0.6874 0.8126 0.9374 ]
+Precision bits: 12.8100
+⌛(The evaluation of the circuit took): 8:663s, degree: 66
+Degree 66 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0632 0.1884 0.3126 0.4378 0.5603 0.6868 0.8145 0.9365 ]
+Precision bits: 8.8354
+⌛(The evaluation of the circuit took): 8:238s, degree: 67
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0664 0.1846 0.3155 0.4339 0.5620 0.6894 0.8119 0.9360 ]
+Precision bits: 7.9969
+⌛(The evaluation of the circuit took): 8:486s, degree: 67
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0637 0.1859 0.3128 0.4376 0.5650 0.6864 0.8121 0.9366 ]
+Precision bits: 8.6497
+⌛(The evaluation of the circuit took): 8:264s, degree: 67
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0656 0.1846 0.3120 0.4366 0.5634 0.6880 0.8154 0.9345 ]
+Precision bits: 8.3425
+⌛(The evaluation of the circuit took): 8:307s, degree: 67
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0632 0.1871 0.3125 0.4371 0.5630 0.6875 0.8130 0.9367 ]
+Precision bits: 10.2426
+⌛(The evaluation of the circuit took): 8:660s, degree: 67
+Degree 67 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1873 0.3127 0.4372 0.5626 0.6874 0.8128 0.9371 ]
+Precision bits: 11.2961
+⌛(The evaluation of the circuit took): 8:732s, degree: 68
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1874 0.3125 0.4375 0.5626 0.6874 0.8125 0.9373 ]
+Precision bits: 12.0514
+⌛(The evaluation of the circuit took): 8:690s, degree: 68
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1874 0.3125 0.4375 0.5626 0.6874 0.8125 0.9374 ]
+Precision bits: 12.2973
+⌛(The evaluation of the circuit took): 8:59s, degree: 68
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1874 0.3125 0.4376 0.5626 0.6874 0.8125 0.9373 ]
+Precision bits: 11.9156
+⌛(The evaluation of the circuit took): 8:637s, degree: 68
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4376 0.5625 0.6875 0.8125 0.9374 ]
+Precision bits: 12.6513
+⌛(The evaluation of the circuit took): 8:465s, degree: 68
+Degree 68 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0649 0.1872 0.3153 0.4354 0.5646 0.6846 0.8128 0.9351 ]
+Precision bits: 8.4629
+⌛(The evaluation of the circuit took): 8:524s, degree: 69
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1865 0.3131 0.4378 0.5632 0.6882 0.8117 0.9368 ]
+Precision bits: 9.9330
+⌛(The evaluation of the circuit took): 8:739s, degree: 69
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0644 0.1866 0.3138 0.4362 0.5638 0.6863 0.8133 0.9357 ]
+Precision bits: 9.1104
+⌛(The evaluation of the circuit took): 8:351s, degree: 69
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0650 0.1866 0.3145 0.4344 0.5622 0.6878 0.8131 0.9364 ]
+Precision bits: 8.3269
+⌛(The evaluation of the circuit took): 9:139s, degree: 69
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1869 0.3130 0.4376 0.5632 0.6875 0.8123 0.9368 ]
+Precision bits: 10.3669
+⌛(The evaluation of the circuit took): 8:427s, degree: 69
+Degree 69 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0630 0.1871 0.3125 0.4375 0.5627 0.6874 0.8125 0.9374 ]
+Precision bits: 11.0857
+⌛(The evaluation of the circuit took): 8:960s, degree: 70
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1875 0.3127 0.4373 0.5627 0.6873 0.8126 0.9374 ]
+Precision bits: 12.3434
+⌛(The evaluation of the circuit took): 8:675s, degree: 70
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3127 0.4373 0.5625 0.6875 0.8127 0.9371 ]
+Precision bits: 11.7708
+⌛(The evaluation of the circuit took): 8:685s, degree: 70
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1876 0.3126 0.4373 0.5627 0.6873 0.8125 0.9374 ]
+Precision bits: 12.1594
+⌛(The evaluation of the circuit took): 8:709s, degree: 70
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1875 0.3127 0.4374 0.5626 0.6873 0.8125 0.9374 ]
+Precision bits: 12.0183
+⌛(The evaluation of the circuit took): 8:588s, degree: 70
+Degree 70 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0649 0.1852 0.3120 0.4386 0.5645 0.6859 0.8120 0.9369 ]
+Precision bits: 8.7161
+⌛(The evaluation of the circuit took): 8:772s, degree: 71
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0631 0.1873 0.3140 0.4354 0.5623 0.6880 0.8142 0.9355 ]
+Precision bits: 8.9456
+⌛(The evaluation of the circuit took): 9:277s, degree: 71
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0649 0.1862 0.3122 0.4365 0.5624 0.6872 0.8128 0.9377 ]
+Precision bits: 8.7118
+⌛(The evaluation of the circuit took): 8:335s, degree: 71
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0648 0.1861 0.3137 0.4352 0.5623 0.6884 0.8126 0.9370 ]
+Precision bits: 8.7185
+⌛(The evaluation of the circuit took): 8:972s, degree: 71
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0638 0.1867 0.3137 0.4352 0.5623 0.6878 0.8135 0.9368 ]
+Precision bits: 8.8131
+⌛(The evaluation of the circuit took): 8:723s, degree: 71
+Degree 71 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0630 0.1871 0.3125 0.4376 0.5623 0.6874 0.8128 0.9372 ]
+Precision bits: 10.7927
+⌛(The evaluation of the circuit took): 9:9s, degree: 72
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1876 0.3125 0.4375 0.5623 0.6875 0.8129 0.9370 ]
+Precision bits: 11.1002
+⌛(The evaluation of the circuit took): 8:185s, degree: 72
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1873 0.3128 0.4372 0.5627 0.6873 0.8128 0.9369 ]
+Precision bits: 10.8130
+⌛(The evaluation of the circuit took): 8:918s, degree: 72
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1876 0.3125 0.4373 0.5625 0.6876 0.8129 0.9370 ]
+Precision bits: 10.8838
+⌛(The evaluation of the circuit took): 8:524s, degree: 72
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0630 0.1872 0.3128 0.4371 0.5624 0.6875 0.8127 0.9374 ]
+Precision bits: 10.8966
+⌛(The evaluation of the circuit took): 8:239s, degree: 72
+Degree 72 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1866 0.3128 0.4377 0.5623 0.6871 0.8130 0.9376 ]
+Precision bits: 10.1424
+⌛(The evaluation of the circuit took): 9:12s, degree: 73
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0630 0.1873 0.3125 0.4370 0.5624 0.6876 0.8127 0.9376 ]
+Precision bits: 10.9140
+⌛(The evaluation of the circuit took): 8:161s, degree: 73
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1867 0.3129 0.4379 0.5622 0.6871 0.8133 0.9375 ]
+Precision bits: 10.2171
+⌛(The evaluation of the circuit took): 8:597s, degree: 73
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0633 0.1868 0.3123 0.4377 0.5633 0.6866 0.8127 0.9373 ]
+Precision bits: 10.1088
+⌛(The evaluation of the circuit took): 8:640s, degree: 73
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1870 0.3123 0.4375 0.5625 0.6877 0.8129 0.9376 ]
+Precision bits: 10.9702
+⌛(The evaluation of the circuit took): 8:558s, degree: 73
+Degree 73 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1875 0.3128 0.4372 0.5624 0.6875 0.8129 0.9369 ]
+Precision bits: 10.8324
+⌛(The evaluation of the circuit took): 8:503s, degree: 74
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0630 0.1871 0.3124 0.4375 0.5626 0.6874 0.8127 0.9373 ]
+Precision bits: 11.0653
+⌛(The evaluation of the circuit took): 8:582s, degree: 74
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3127 0.4374 0.5623 0.6875 0.8129 0.9370 ]
+Precision bits: 11.0394
+⌛(The evaluation of the circuit took): 8:846s, degree: 74
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1875 0.3127 0.4372 0.5624 0.6876 0.8129 0.9370 ]
+Precision bits: 10.9579
+⌛(The evaluation of the circuit took): 8:258s, degree: 74
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1874 0.3126 0.4375 0.5625 0.6875 0.8126 0.9374 ]
+Precision bits: 13.1991
+⌛(The evaluation of the circuit took): 8:814s, degree: 74
+Degree 74 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0622 0.1881 0.3126 0.4377 0.5623 0.6870 0.8124 0.9374 ]
+Precision bits: 10.5955
+⌛(The evaluation of the circuit took): 8:479s, degree: 75
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1878 0.3125 0.4377 0.5625 0.6873 0.8125 0.9377 ]
+Precision bits: 11.2011
+⌛(The evaluation of the circuit took): 9:139s, degree: 75
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1881 0.3123 0.4375 0.5620 0.6875 0.8124 0.9375 ]
+Precision bits: 10.7099
+⌛(The evaluation of the circuit took): 8:454s, degree: 75
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1881 0.3127 0.4377 0.5623 0.6871 0.8124 0.9374 ]
+Precision bits: 10.6738
+⌛(The evaluation of the circuit took): 8:667s, degree: 75
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1876 0.3125 0.4380 0.5628 0.6872 0.8122 0.9376 ]
+Precision bits: 11.0511
+⌛(The evaluation of the circuit took): 8:571s, degree: 75
+Degree 75 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0630 0.1871 0.3125 0.4375 0.5626 0.6873 0.8125 0.9374 ]
+Precision bits: 11.0049
+⌛(The evaluation of the circuit took): 8:637s, degree: 76
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9374 ]
+Precision bits: 13.1465
+⌛(The evaluation of the circuit took): 9:99s, degree: 76
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5627 0.6873 0.8126 0.9372 ]
+Precision bits: 11.4983
+⌛(The evaluation of the circuit took): 8:913s, degree: 76
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3126 0.4375 0.5625 0.6875 0.8125 0.9374 ]
+Precision bits: 12.8280
+⌛(The evaluation of the circuit took): 8:675s, degree: 76
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1873 0.3126 0.4375 0.5625 0.6875 0.8127 0.9371 ]
+Precision bits: 11.3400
+⌛(The evaluation of the circuit took): 9:29s, degree: 76
+Degree 76 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0631 0.1884 0.3117 0.4375 0.5619 0.6872 0.8115 0.9386 ]
+Precision bits: 9.8074
+⌛(The evaluation of the circuit took): 8:783s, degree: 77
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0620 0.1878 0.3117 0.4381 0.5619 0.6883 0.8122 0.9379 ]
+Precision bits: 10.3181
+⌛(The evaluation of the circuit took): 8:102s, degree: 77
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1877 0.3124 0.4375 0.5625 0.6875 0.8123 0.9373 ]
+Precision bits: 12.4131
+⌛(The evaluation of the circuit took): 8:942s, degree: 77
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0616 0.1879 0.3121 0.4382 0.5624 0.6877 0.8124 0.9378 ]
+Precision bits: 10.1367
+⌛(The evaluation of the circuit took): 9:75s, degree: 77
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0631 0.1878 0.3120 0.4367 0.5613 0.6883 0.8128 0.9379 ]
+Precision bits: 9.7171
+⌛(The evaluation of the circuit took): 8:780s, degree: 77
+Degree 77 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1873 0.3125 0.4375 0.5626 0.6873 0.8125 0.9374 ]
+Precision bits: 11.9814
+⌛(The evaluation of the circuit took): 9:271s, degree: 78
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1872 0.3128 0.4372 0.5628 0.6872 0.8128 0.9371 ]
+Precision bits: 11.2762
+⌛(The evaluation of the circuit took): 9:273s, degree: 78
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1874 0.3125 0.4375 0.5624 0.6876 0.8123 0.9374 ]
+Precision bits: 12.8858
+⌛(The evaluation of the circuit took): 9:186s, degree: 78
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1873 0.3125 0.4377 0.5625 0.6873 0.8125 0.9374 ]
+Precision bits: 12.1831
+⌛(The evaluation of the circuit took): 8:734s, degree: 78
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1872 0.3127 0.4373 0.5625 0.6876 0.8124 0.9374 ]
+Precision bits: 11.1974
+⌛(The evaluation of the circuit took): 8:994s, degree: 78
+Degree 78 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0622 0.1872 0.3127 0.4375 0.5619 0.6878 0.8125 0.9381 ]
+Precision bits: 10.6236
+⌛(The evaluation of the circuit took): 8:517s, degree: 79
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0620 0.1877 0.3122 0.4375 0.5624 0.6878 0.8125 0.9378 ]
+Precision bits: 11.0098
+⌛(The evaluation of the circuit took): 8:311s, degree: 79
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1875 0.3117 0.4376 0.5626 0.6872 0.8127 0.9379 ]
+Precision bits: 10.3587
+⌛(The evaluation of the circuit took): 8:649s, degree: 79
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1869 0.3108 0.4393 0.5627 0.6866 0.8116 0.9391 ]
+Precision bits: 9.0994
+⌛(The evaluation of the circuit took): 8:542s, degree: 79
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0622 0.1877 0.3124 0.4374 0.5615 0.6875 0.8124 0.9388 ]
+Precision bits: 9.6223
+⌛(The evaluation of the circuit took): 8:780s, degree: 79
+Degree 79 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9374 ]
+Precision bits: 12.9204
+⌛(The evaluation of the circuit took): 8:649s, degree: 80
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1876 0.3124 0.4375 0.5625 0.6875 0.8125 0.9374 ]
+Precision bits: 12.8441
+⌛(The evaluation of the circuit took): 8:807s, degree: 80
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3126 0.4374 0.5626 0.6874 0.8125 0.9374 ]
+Precision bits: 12.8543
+⌛(The evaluation of the circuit took): 9:72s, degree: 80
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1876 0.3124 0.4375 0.5624 0.6875 0.8126 0.9374 ]
+Precision bits: 12.8258
+⌛(The evaluation of the circuit took): 8:835s, degree: 80
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4376 0.5625 0.6876 0.8124 0.9374 ]
+Precision bits: 12.8508
+⌛(The evaluation of the circuit took): 8:754s, degree: 80
+Degree 80 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0620 0.1881 0.3119 0.4370 0.5625 0.6875 0.8115 0.9393 ]
+Precision bits: 9.0755
+⌛(The evaluation of the circuit took): 8:639s, degree: 81
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1880 0.3119 0.4360 0.5619 0.6894 0.8130 0.9375 ]
+Precision bits: 9.0329
+⌛(The evaluation of the circuit took): 8:738s, degree: 81
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0609 0.1884 0.3132 0.4369 0.5613 0.6882 0.8130 0.9382 ]
+Precision bits: 9.2856
+⌛(The evaluation of the circuit took): 9:451s, degree: 81
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1870 0.3132 0.4376 0.5624 0.6869 0.8130 0.9379 ]
+Precision bits: 10.5939
+⌛(The evaluation of the circuit took): 8:904s, degree: 81
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0619 0.1870 0.3132 0.4374 0.5627 0.6881 0.8123 0.9374 ]
+Precision bits: 10.4991
+⌛(The evaluation of the circuit took): 9:223s, degree: 81
+Degree 81 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6876 0.8124 0.9374 ]
+Precision bits: 13.1282
+⌛(The evaluation of the circuit took): 8:965s, degree: 82
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1873 0.3125 0.4376 0.5624 0.6875 0.8126 0.9373 ]
+Precision bits: 12.0858
+⌛(The evaluation of the circuit took): 8:786s, degree: 82
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1876 0.3124 0.4375 0.5627 0.6873 0.8127 0.9373 ]
+Precision bits: 12.1105
+⌛(The evaluation of the circuit took): 8:609s, degree: 82
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1874 0.3125 0.4375 0.5626 0.6875 0.8125 0.9374 ]
+Precision bits: 12.4479
+⌛(The evaluation of the circuit took): 8:750s, degree: 82
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1874 0.3125 0.4375 0.5626 0.6874 0.8125 0.9374 ]
+Precision bits: 12.4696
+⌛(The evaluation of the circuit took): 8:852s, degree: 82
+Degree 82 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0606 0.1891 0.3119 0.4383 0.5626 0.6867 0.8129 0.9378 ]
+Precision bits: 9.0685
+⌛(The evaluation of the circuit took): 9:126s, degree: 83
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0620 0.1886 0.3121 0.4375 0.5622 0.6883 0.8115 0.9378 ]
+Precision bits: 9.8296
+⌛(The evaluation of the circuit took): 8:775s, degree: 83
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1884 0.3114 0.4373 0.5624 0.6876 0.8129 0.9378 ]
+Precision bits: 9.8127
+⌛(The evaluation of the circuit took): 8:975s, degree: 83
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0622 0.1886 0.3116 0.4379 0.5625 0.6879 0.8114 0.9380 ]
+Precision bits: 9.8031
+⌛(The evaluation of the circuit took): 8:868s, degree: 83
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1878 0.3126 0.4370 0.5616 0.6884 0.8118 0.9387 ]
+Precision bits: 9.6678
+⌛(The evaluation of the circuit took): 8:946s, degree: 83
+Degree 83 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5625 0.6875 0.8124 0.9374 ]
+Precision bits: 13.0419
+⌛(The evaluation of the circuit took): 8:947s, degree: 84
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9374 ]
+Precision bits: 13.9443
+⌛(The evaluation of the circuit took): 9:101s, degree: 84
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4374 0.5625 0.6875 0.8126 0.9374 ]
+Precision bits: 13.4333
+⌛(The evaluation of the circuit took): 9:393s, degree: 84
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1874 0.3126 0.4375 0.5625 0.6875 0.8126 0.9374 ]
+Precision bits: 12.8081
+⌛(The evaluation of the circuit took): 9:275s, degree: 84
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8126 0.9373 ]
+Precision bits: 12.8019
+⌛(The evaluation of the circuit took): 8:248s, degree: 84
+Degree 84 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1879 0.3129 0.4374 0.5616 0.6878 0.8112 0.9386 ]
+Precision bits: 9.5291
+⌛(The evaluation of the circuit took): 9:188s, degree: 85
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0606 0.1895 0.3110 0.4387 0.5624 0.6884 0.8112 0.9384 ]
+Precision bits: 8.9636
+⌛(The evaluation of the circuit took): 8:653s, degree: 85
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1880 0.3115 0.4386 0.5619 0.6882 0.8118 0.9374 ]
+Precision bits: 9.7759
+⌛(The evaluation of the circuit took): 9:101s, degree: 85
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1881 0.3119 0.4378 0.5619 0.6881 0.8119 0.9377 ]
+Precision bits: 10.5585
+⌛(The evaluation of the circuit took): 8:641s, degree: 85
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1870 0.3138 0.4368 0.5631 0.6875 0.8119 0.9375 ]
+Precision bits: 9.6664
+⌛(The evaluation of the circuit took): 8:305s, degree: 85
+Degree 85 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3126 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.6436
+⌛(The evaluation of the circuit took): 8:851s, degree: 86
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5625 0.6875 0.8124 0.9374 ]
+Precision bits: 13.7314
+⌛(The evaluation of the circuit took): 8:643s, degree: 86
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.0943
+⌛(The evaluation of the circuit took): 9:284s, degree: 86
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9374 ]
+Precision bits: 13.9184
+⌛(The evaluation of the circuit took): 8:530s, degree: 86
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1876 0.3125 0.4374 0.5626 0.6875 0.8124 0.9374 ]
+Precision bits: 13.0995
+⌛(The evaluation of the circuit took): 9:417s, degree: 86
+Degree 86 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0615 0.1887 0.3131 0.4369 0.5620 0.6871 0.8113 0.9392 ]
+Precision bits: 9.1824
+⌛(The evaluation of the circuit took): 9:468s, degree: 87
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0617 0.1877 0.3128 0.4374 0.5628 0.6870 0.8125 0.9381 ]
+Precision bits: 10.2780
+⌛(The evaluation of the circuit took): 9:132s, degree: 87
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0619 0.1875 0.3121 0.4386 0.5612 0.6872 0.8134 0.9382 ]
+Precision bits: 9.6351
+⌛(The evaluation of the circuit took): 9:196s, degree: 87
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0614 0.1887 0.3131 0.4369 0.5630 0.6868 0.8113 0.9386 ]
+Precision bits: 9.7139
+⌛(The evaluation of the circuit took): 9:195s, degree: 87
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0601 0.1895 0.3120 0.4384 0.5625 0.6864 0.8133 0.9378 ]
+Precision bits: 8.7155
+⌛(The evaluation of the circuit took): 9:512s, degree: 87
+Degree 87 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1876 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.9805
+⌛(The evaluation of the circuit took): 8:674s, degree: 88
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.6768
+⌛(The evaluation of the circuit took): 9:161s, degree: 88
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3126 0.4375 0.5624 0.6875 0.8125 0.9375 ]
+Precision bits: 14.3735
+⌛(The evaluation of the circuit took): 9:141s, degree: 88
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4374 0.5625 0.6875 0.8124 0.9375 ]
+Precision bits: 13.7152
+⌛(The evaluation of the circuit took): 8:813s, degree: 88
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.9934
+⌛(The evaluation of the circuit took): 9:106s, degree: 88
+Degree 88 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0604 0.1887 0.3121 0.4372 0.5628 0.6879 0.8112 0.9396 ]
+Precision bits: 8.9072
+⌛(The evaluation of the circuit took): 9:342s, degree: 89
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0615 0.1876 0.3122 0.4384 0.5618 0.6879 0.8123 0.9382 ]
+Precision bits: 9.9798
+⌛(The evaluation of the circuit took): 9:10s, degree: 89
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0617 0.1867 0.3135 0.4375 0.5618 0.6885 0.8109 0.9395 ]
+Precision bits: 8.9757
+⌛(The evaluation of the circuit took): 8:602s, degree: 89
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0607 0.1882 0.3127 0.4370 0.5624 0.6872 0.8133 0.9384 ]
+Precision bits: 9.1113
+⌛(The evaluation of the circuit took): 8:609s, degree: 89
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0616 0.1873 0.3125 0.4374 0.5626 0.6875 0.8126 0.9383 ]
+Precision bits: 10.1810
+⌛(The evaluation of the circuit took): 8:714s, degree: 89
+Degree 89 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.1491
+⌛(The evaluation of the circuit took): 8:307s, degree: 90
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1876 0.3126 0.4375 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 13.7725
+⌛(The evaluation of the circuit took): 8:637s, degree: 90
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3124 0.4375 0.5625 0.6874 0.8124 0.9375 ]
+Precision bits: 13.4412
+⌛(The evaluation of the circuit took): 8:358s, degree: 90
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1876 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.0702
+⌛(The evaluation of the circuit took): 8:899s, degree: 90
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.1925
+⌛(The evaluation of the circuit took): 8:490s, degree: 90
+Degree 90 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0612 0.1872 0.3119 0.4380 0.5621 0.6882 0.8124 0.9389 ]
+Precision bits: 9.4556
+⌛(The evaluation of the circuit took): 9:603s, degree: 91
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0612 0.1873 0.3117 0.4381 0.5627 0.6873 0.8123 0.9394 ]
+Precision bits: 9.0697
+⌛(The evaluation of the circuit took): 9:251s, degree: 91
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0607 0.1879 0.3126 0.4372 0.5615 0.6882 0.8131 0.9386 ]
+Precision bits: 9.0764
+⌛(The evaluation of the circuit took): 9:501s, degree: 91
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0612 0.1870 0.3123 0.4379 0.5614 0.6890 0.8122 0.9390 ]
+Precision bits: 9.3831
+⌛(The evaluation of the circuit took): 8:951s, degree: 91
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0611 0.1878 0.3118 0.4379 0.5615 0.6880 0.8131 0.9386 ]
+Precision bits: 9.4942
+⌛(The evaluation of the circuit took): 9:701s, degree: 91
+Degree 91 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.0156
+⌛(The evaluation of the circuit took): 8:924s, degree: 92
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3125 0.4375 0.5625 0.6876 0.8125 0.9375 ]
+Precision bits: 12.9654
+⌛(The evaluation of the circuit took): 9:325s, degree: 92
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3124 0.4375 0.5625 0.6875 0.8124 0.9377 ]
+Precision bits: 12.6548
+⌛(The evaluation of the circuit took): 9:308s, degree: 92
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5624 0.6876 0.8124 0.9376 ]
+Precision bits: 12.9089
+⌛(The evaluation of the circuit took): 8:219s, degree: 92
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3126 0.4375 0.5624 0.6876 0.8124 0.9376 ]
+Precision bits: 13.0446
+⌛(The evaluation of the circuit took): 8:556s, degree: 92
+Degree 92 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0609 0.1870 0.3118 0.4381 0.5629 0.6874 0.8125 0.9394 ]
+Precision bits: 8.9972
+⌛(The evaluation of the circuit took): 8:602s, degree: 93
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0610 0.1866 0.3128 0.4376 0.5624 0.6872 0.8134 0.9390 ]
+Precision bits: 9.3657
+⌛(The evaluation of the circuit took): 8:404s, degree: 93
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0610 0.1867 0.3120 0.4381 0.5624 0.6874 0.8131 0.9392 ]
+Precision bits: 9.2234
+⌛(The evaluation of the circuit took): 8:444s, degree: 93
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0611 0.1866 0.3119 0.4384 0.5623 0.6882 0.8121 0.9395 ]
+Precision bits: 8.9822
+⌛(The evaluation of the circuit took): 9:122s, degree: 93
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0611 0.1866 0.3120 0.4382 0.5623 0.6884 0.8120 0.9394 ]
+Precision bits: 9.0423
+⌛(The evaluation of the circuit took): 8:871s, degree: 93
+Degree 93 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1876 0.3125 0.4375 0.5625 0.6876 0.8125 0.9376 ]
+Precision bits: 12.6158
+⌛(The evaluation of the circuit took): 9:290s, degree: 94
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3123 0.4376 0.5625 0.6874 0.8126 0.9376 ]
+Precision bits: 12.7480
+⌛(The evaluation of the circuit took): 8:684s, degree: 94
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3124 0.4376 0.5624 0.6876 0.8125 0.9376 ]
+Precision bits: 13.1815
+⌛(The evaluation of the circuit took): 9:255s, degree: 94
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 13.7536
+⌛(The evaluation of the circuit took): 8:971s, degree: 94
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3125 0.4375 0.5624 0.6875 0.8125 0.9376 ]
+Precision bits: 13.7887
+⌛(The evaluation of the circuit took): 9:342s, degree: 94
+Degree 94 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0611 0.1879 0.3120 0.4376 0.5620 0.6878 0.8132 0.9385 ]
+Precision bits: 9.4796
+⌛(The evaluation of the circuit took): 9:478s, degree: 95
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0614 0.1872 0.3122 0.4377 0.5623 0.6878 0.8129 0.9386 ]
+Precision bits: 9.8723
+⌛(The evaluation of the circuit took): 9:420s, degree: 95
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0613 0.1872 0.3123 0.4382 0.5618 0.6878 0.8131 0.9382 ]
+Precision bits: 9.6991
+⌛(The evaluation of the circuit took): 9:129s, degree: 95
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0616 0.1877 0.3118 0.4381 0.5620 0.6875 0.8128 0.9385 ]
+Precision bits: 10.0119
+⌛(The evaluation of the circuit took): 9:340s, degree: 95
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0612 0.1880 0.3120 0.4374 0.5629 0.6875 0.8124 0.9387 ]
+Precision bits: 9.5348
+⌛(The evaluation of the circuit took): 9:492s, degree: 95
+Degree 95 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3125 0.4375 0.5625 0.6876 0.8124 0.9377 ]
+Precision bits: 12.0754
+⌛(The evaluation of the circuit took): 9:137s, degree: 96
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1874 0.3125 0.4375 0.5626 0.6875 0.8125 0.9377 ]
+Precision bits: 12.5824
+⌛(The evaluation of the circuit took): 9:202s, degree: 96
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1876 0.3124 0.4375 0.5624 0.6875 0.8126 0.9376 ]
+Precision bits: 12.6545
+⌛(The evaluation of the circuit took): 8:476s, degree: 96
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1876 0.3125 0.4375 0.5625 0.6876 0.8125 0.9376 ]
+Precision bits: 12.2717
+⌛(The evaluation of the circuit took): 8:976s, degree: 96
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 13.3146
+⌛(The evaluation of the circuit took): 9:866s, degree: 96
+Degree 96 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0617 0.1877 0.3127 0.4375 0.5625 0.6874 0.8124 0.9381 ]
+Precision bits: 10.2988
+⌛(The evaluation of the circuit took): 9:399s, degree: 97
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0622 0.1873 0.3127 0.4376 0.5621 0.6877 0.8123 0.9380 ]
+Precision bits: 10.8207
+⌛(The evaluation of the circuit took): 9:905s, degree: 97
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1878 0.3122 0.4378 0.5621 0.6874 0.8127 0.9379 ]
+Precision bits: 11.2160
+⌛(The evaluation of the circuit took): 9:27s, degree: 97
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1872 0.3126 0.4377 0.5622 0.6876 0.8127 0.9379 ]
+Precision bits: 11.2571
+⌛(The evaluation of the circuit took): 8:593s, degree: 97
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0619 0.1872 0.3126 0.4377 0.5623 0.6874 0.8128 0.9381 ]
+Precision bits: 10.7429
+⌛(The evaluation of the circuit took): 8:838s, degree: 97
+Degree 97 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1875 0.3124 0.4375 0.5625 0.6875 0.8123 0.9377 ]
+Precision bits: 12.1197
+⌛(The evaluation of the circuit took): 9:201s, degree: 98
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1875 0.3125 0.4375 0.5623 0.6877 0.8124 0.9377 ]
+Precision bits: 12.4270
+⌛(The evaluation of the circuit took): 9:436s, degree: 98
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0622 0.1876 0.3125 0.4374 0.5626 0.6875 0.8123 0.9377 ]
+Precision bits: 12.0305
+⌛(The evaluation of the circuit took): 9:302s, degree: 98
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1877 0.3125 0.4375 0.5625 0.6875 0.8124 0.9377 ]
+Precision bits: 12.0078
+⌛(The evaluation of the circuit took): 9:277s, degree: 98
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3125 0.4375 0.5625 0.6875 0.8126 0.9376 ]
+Precision bits: 13.4426
+⌛(The evaluation of the circuit took): 9:46s, degree: 98
+Degree 98 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3126 0.4375 0.5626 0.6874 0.8123 0.9376 ]
+Precision bits: 12.0848
+⌛(The evaluation of the circuit took): 9:135s, degree: 99
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3127 0.4374 0.5625 0.6874 0.8124 0.9376 ]
+Precision bits: 12.3839
+⌛(The evaluation of the circuit took): 8:972s, degree: 99
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1876 0.3125 0.4375 0.5624 0.6873 0.8125 0.9376 ]
+Precision bits: 12.2180
+⌛(The evaluation of the circuit took): 8:808s, degree: 99
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9377 ]
+Precision bits: 12.4440
+⌛(The evaluation of the circuit took): 8:143s, degree: 99
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1874 0.3127 0.4376 0.5625 0.6876 0.8126 0.9374 ]
+Precision bits: 12.5598
+⌛(The evaluation of the circuit took): 8:364s, degree: 99
+Degree 99 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1874 0.3125 0.4375 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 13.1650
+⌛(The evaluation of the circuit took): 9:117s, degree: 100
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1876 0.3125 0.4375 0.5625 0.6875 0.8124 0.9376 ]
+Precision bits: 12.6985
+⌛(The evaluation of the circuit took): 8:873s, degree: 100
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3123 0.4376 0.5624 0.6875 0.8125 0.9376 ]
+Precision bits: 12.6637
+⌛(The evaluation of the circuit took): 8:457s, degree: 100
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1877 0.3123 0.4376 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 12.1582
+⌛(The evaluation of the circuit took): 8:588s, degree: 100
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0623 0.1875 0.3124 0.4375 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 12.4105
+⌛(The evaluation of the circuit took): 8:889s, degree: 100
+Degree 100 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1876 0.3127 0.4375 0.5625 0.6875 0.8125 0.9371 ]
+Precision bits: 11.3681
+⌛(The evaluation of the circuit took): 9:249s, degree: 101
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1876 0.3126 0.4375 0.5625 0.6875 0.8122 0.9373 ]
+Precision bits: 11.8824
+⌛(The evaluation of the circuit took): 8:849s, degree: 101
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1877 0.3125 0.4373 0.5626 0.6874 0.8123 0.9372 ]
+Precision bits: 11.2902
+⌛(The evaluation of the circuit took): 8:204s, degree: 101
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1876 0.3127 0.4374 0.5626 0.6872 0.8124 0.9371 ]
+Precision bits: 11.1626
+⌛(The evaluation of the circuit took): 9:117s, degree: 101
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0630 0.1877 0.3126 0.4377 0.5623 0.6874 0.8123 0.9370 ]
+Precision bits: 11.0070
+⌛(The evaluation of the circuit took): 8:511s, degree: 101
+Degree 101 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 12.6503
+⌛(The evaluation of the circuit took): 8:529s, degree: 102
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3124 0.4375 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 13.1371
+⌛(The evaluation of the circuit took): 8:612s, degree: 102
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3125 0.4376 0.5624 0.6875 0.8126 0.9376 ]
+Precision bits: 13.3686
+⌛(The evaluation of the circuit took): 9:15s, degree: 102
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0622 0.1876 0.3125 0.4375 0.5626 0.6875 0.8124 0.9377 ]
+Precision bits: 11.9739
+⌛(The evaluation of the circuit took): 9:109s, degree: 102
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1874 0.3126 0.4375 0.5624 0.6876 0.8124 0.9376 ]
+Precision bits: 12.5998
+⌛(The evaluation of the circuit took): 9:132s, degree: 102
+Degree 102 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1880 0.3123 0.4374 0.5625 0.6876 0.8126 0.9368 ]
+Precision bits: 10.3923
+⌛(The evaluation of the circuit took): 8:688s, degree: 103
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0631 0.1875 0.3131 0.4376 0.5625 0.6869 0.8125 0.9370 ]
+Precision bits: 10.6499
+⌛(The evaluation of the circuit took): 8:794s, degree: 103
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0631 0.1878 0.3123 0.4374 0.5627 0.6871 0.8127 0.9368 ]
+Precision bits: 10.5559
+⌛(The evaluation of the circuit took): 8:908s, degree: 103
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0635 0.1878 0.3124 0.4368 0.5633 0.6876 0.8122 0.9364 ]
+Precision bits: 9.8519
+⌛(The evaluation of the circuit took): 8:623s, degree: 103
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0635 0.1874 0.3128 0.4368 0.5633 0.6876 0.8122 0.9365 ]
+Precision bits: 9.8909
+⌛(The evaluation of the circuit took): 8:314s, degree: 103
+Degree 103 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3125 0.4375 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 13.0973
+⌛(The evaluation of the circuit took): 9:82s, degree: 104
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1874 0.3126 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.5561
+⌛(The evaluation of the circuit took): 8:822s, degree: 104
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5624 0.6876 0.8125 0.9375 ]
+Precision bits: 12.9862
+⌛(The evaluation of the circuit took): 8:349s, degree: 104
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 13.0691
+⌛(The evaluation of the circuit took): 8:898s, degree: 104
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3125 0.4376 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 12.9571
+⌛(The evaluation of the circuit took): 8:223s, degree: 104
+Degree 104 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0637 0.1874 0.3122 0.4374 0.5627 0.6873 0.8123 0.9370 ]
+Precision bits: 9.7673
+⌛(The evaluation of the circuit took): 8:911s, degree: 105
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0635 0.1872 0.3129 0.4371 0.5630 0.6867 0.8127 0.9369 ]
+Precision bits: 9.9048
+⌛(The evaluation of the circuit took): 8:908s, degree: 105
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0631 0.1873 0.3128 0.4371 0.5630 0.6872 0.8127 0.9369 ]
+Precision bits: 10.6969
+⌛(The evaluation of the circuit took): 8:729s, degree: 105
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0631 0.1882 0.3127 0.4370 0.5625 0.6873 0.8129 0.9364 ]
+Precision bits: 9.8089
+⌛(The evaluation of the circuit took): 8:625s, degree: 105
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0635 0.1878 0.3122 0.4371 0.5628 0.6870 0.8128 0.9369 ]
+Precision bits: 10.0190
+⌛(The evaluation of the circuit took): 9:175s, degree: 105
+Degree 105 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3126 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.9336
+⌛(The evaluation of the circuit took): 9:521s, degree: 106
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 14.0101
+⌛(The evaluation of the circuit took): 8:872s, degree: 106
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.5122
+⌛(The evaluation of the circuit took): 9:576s, degree: 106
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.3304
+⌛(The evaluation of the circuit took): 9:376s, degree: 106
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9376 ]
+Precision bits: 13.0779
+⌛(The evaluation of the circuit took): 9:136s, degree: 106
+Degree 106 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0631 0.1879 0.3124 0.4369 0.5627 0.6873 0.8133 0.9363 ]
+Precision bits: 9.7293
+⌛(The evaluation of the circuit took): 9:180s, degree: 107
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0639 0.1870 0.3129 0.4365 0.5633 0.6877 0.8124 0.9362 ]
+Precision bits: 9.4757
+⌛(The evaluation of the circuit took): 9:156s, degree: 107
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0631 0.1877 0.3125 0.4375 0.5625 0.6876 0.8123 0.9368 ]
+Precision bits: 10.4331
+⌛(The evaluation of the circuit took): 9:161s, degree: 107
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0632 0.1880 0.3126 0.4368 0.5628 0.6874 0.8127 0.9367 ]
+Precision bits: 10.2656
+⌛(The evaluation of the circuit took): 9:291s, degree: 107
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0639 0.1873 0.3122 0.4374 0.5625 0.6872 0.8125 0.9369 ]
+Precision bits: 9.4860
+⌛(The evaluation of the circuit took): 9:522s, degree: 107
+Degree 107 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.9377
+⌛(The evaluation of the circuit took): 8:707s, degree: 108
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3125 0.4375 0.5625 0.6875 0.8124 0.9376 ]
+Precision bits: 13.3423
+⌛(The evaluation of the circuit took): 9:634s, degree: 108
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5624 0.6875 0.8125 0.9376 ]
+Precision bits: 13.3368
+⌛(The evaluation of the circuit took): 8:691s, degree: 108
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3124 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.9439
+⌛(The evaluation of the circuit took): 8:797s, degree: 108
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8124 0.9375 ]
+Precision bits: 14.0723
+⌛(The evaluation of the circuit took): 9:206s, degree: 108
+Degree 108 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0636 0.1864 0.3128 0.4371 0.5634 0.6869 0.8131 0.9367 ]
+Precision bits: 9.8404
+⌛(The evaluation of the circuit took): 8:904s, degree: 109
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1875 0.3125 0.4375 0.5628 0.6869 0.8131 0.9369 ]
+Precision bits: 10.7216
+⌛(The evaluation of the circuit took): 8:61s, degree: 109
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0630 0.1875 0.3124 0.4377 0.5623 0.6876 0.8124 0.9371 ]
+Precision bits: 11.0879
+⌛(The evaluation of the circuit took): 9:348s, degree: 109
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0631 0.1872 0.3128 0.4377 0.5628 0.6876 0.8119 0.9370 ]
+Precision bits: 10.7263
+⌛(The evaluation of the circuit took): 9:552s, degree: 109
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1873 0.3123 0.4378 0.5626 0.6881 0.8121 0.9372 ]
+Precision bits: 10.6998
+⌛(The evaluation of the circuit took): 9:152s, degree: 109
+Degree 109 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1876 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.9238
+⌛(The evaluation of the circuit took): 8:833s, degree: 110
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.5394
+⌛(The evaluation of the circuit took): 9:330s, degree: 110
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.6324
+⌛(The evaluation of the circuit took): 9:216s, degree: 110
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 15.3299
+⌛(The evaluation of the circuit took): 9:543s, degree: 110
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1876 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.3302
+⌛(The evaluation of the circuit took): 9:255s, degree: 110
+Degree 110 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0635 0.1872 0.3125 0.4379 0.5623 0.6870 0.8126 0.9370 ]
+Precision bits: 9.9524
+⌛(The evaluation of the circuit took): 9:242s, degree: 111
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1876 0.3126 0.4375 0.5627 0.6869 0.8131 0.9368 ]
+Precision bits: 10.5636
+⌛(The evaluation of the circuit took): 9:90s, degree: 111
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0636 0.1864 0.3128 0.4371 0.5629 0.6872 0.8136 0.9364 ]
+Precision bits: 9.7916
+⌛(The evaluation of the circuit took): 8:858s, degree: 111
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1874 0.3130 0.4373 0.5624 0.6873 0.8128 0.9369 ]
+Precision bits: 10.7045
+⌛(The evaluation of the circuit took): 8:663s, degree: 111
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0632 0.1870 0.3131 0.4373 0.5625 0.6874 0.8124 0.9371 ]
+Precision bits: 10.4811
+⌛(The evaluation of the circuit took): 9:345s, degree: 111
+Degree 111 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.6344
+⌛(The evaluation of the circuit took): 9:270s, degree: 112
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.8561
+⌛(The evaluation of the circuit took): 9:395s, degree: 112
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.8886
+⌛(The evaluation of the circuit took): 8:829s, degree: 112
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.9992
+⌛(The evaluation of the circuit took): 9:45s, degree: 112
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.2319
+⌛(The evaluation of the circuit took): 9:140s, degree: 112
+Degree 112 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0630 0.1877 0.3124 0.4377 0.5624 0.6876 0.8123 0.9370 ]
+Precision bits: 10.8302
+⌛(The evaluation of the circuit took): 8:911s, degree: 113
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0632 0.1879 0.3126 0.4375 0.5620 0.6874 0.8129 0.9365 ]
+Precision bits: 10.0064
+⌛(The evaluation of the circuit took): 9:102s, degree: 113
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1874 0.3130 0.4371 0.5625 0.6875 0.8135 0.9360 ]
+Precision bits: 9.3908
+⌛(The evaluation of the circuit took): 8:648s, degree: 113
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0636 0.1871 0.3131 0.4371 0.5624 0.6876 0.8124 0.9370 ]
+Precision bits: 9.8300
+⌛(The evaluation of the circuit took): 9:313s, degree: 113
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0632 0.1881 0.3126 0.4369 0.5622 0.6875 0.8135 0.9360 ]
+Precision bits: 9.3851
+⌛(The evaluation of the circuit took): 9:167s, degree: 113
+Degree 113 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 15.0528
+⌛(The evaluation of the circuit took): 9:387s, degree: 114
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.3205
+⌛(The evaluation of the circuit took): 8:372s, degree: 114
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.0920
+⌛(The evaluation of the circuit took): 8:936s, degree: 114
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.8955
+⌛(The evaluation of the circuit took): 8:810s, degree: 114
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.3911
+⌛(The evaluation of the circuit took): 9:29s, degree: 114
+Degree 114 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1877 0.3132 0.4369 0.5627 0.6874 0.8121 0.9372 ]
+Precision bits: 10.4196
+⌛(The evaluation of the circuit took): 8:910s, degree: 115
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0629 0.1873 0.3125 0.4376 0.5631 0.6869 0.8130 0.9366 ]
+Precision bits: 10.1449
+⌛(The evaluation of the circuit took): 9:74s, degree: 115
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0635 0.1871 0.3129 0.4369 0.5631 0.6871 0.8128 0.9365 ]
+Precision bits: 9.9687
+⌛(The evaluation of the circuit took): 9:240s, degree: 115
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1873 0.3124 0.4374 0.5626 0.6875 0.8126 0.9372 ]
+Precision bits: 11.9505
+⌛(The evaluation of the circuit took): 9:264s, degree: 115
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0635 0.1869 0.3123 0.4376 0.5632 0.6869 0.8125 0.9371 ]
+Precision bits: 9.9888
+⌛(The evaluation of the circuit took): 9:32s, degree: 115
+Degree 115 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.6174
+⌛(The evaluation of the circuit took): 9:669s, degree: 116
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 15.0630
+⌛(The evaluation of the circuit took): 9:537s, degree: 116
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8126 0.9374 ]
+Precision bits: 13.8353
+⌛(The evaluation of the circuit took): 9:583s, degree: 116
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.0868
+⌛(The evaluation of the circuit took): 9:485s, degree: 116
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8126 0.9375 ]
+Precision bits: 14.4115
+⌛(The evaluation of the circuit took): 8:474s, degree: 116
+Degree 116 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3128 0.4371 0.5626 0.6868 0.8131 0.9377 ]
+Precision bits: 10.4422
+⌛(The evaluation of the circuit took): 8:811s, degree: 117
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0633 0.1864 0.3124 0.4375 0.5629 0.6871 0.8130 0.9374 ]
+Precision bits: 9.8199
+⌛(The evaluation of the circuit took): 9:477s, degree: 117
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1874 0.3131 0.4369 0.5630 0.6869 0.8126 0.9372 ]
+Precision bits: 10.5809
+⌛(The evaluation of the circuit took): 8:686s, degree: 117
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1874 0.3132 0.4370 0.5631 0.6869 0.8126 0.9372 ]
+Precision bits: 10.5622
+⌛(The evaluation of the circuit took): 9:156s, degree: 117
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1868 0.3132 0.4373 0.5626 0.6878 0.8133 0.9366 ]
+Precision bits: 10.0718
+⌛(The evaluation of the circuit took): 9:233s, degree: 117
+Degree 117 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9374 ]
+Precision bits: 13.8110
+⌛(The evaluation of the circuit took): 9:864s, degree: 118
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1874 0.3126 0.4375 0.5626 0.6874 0.8126 0.9374 ]
+Precision bits: 13.4518
+⌛(The evaluation of the circuit took): 9:222s, degree: 118
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8126 0.9374 ]
+Precision bits: 13.3446
+⌛(The evaluation of the circuit took): 9:220s, degree: 118
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1874 0.3125 0.4375 0.5626 0.6875 0.8125 0.9374 ]
+Precision bits: 13.9537
+⌛(The evaluation of the circuit took): 9:49s, degree: 118
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.7853
+⌛(The evaluation of the circuit took): 9:129s, degree: 118
+Degree 118 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0630 0.1871 0.3125 0.4373 0.5624 0.6874 0.8130 0.9372 ]
+Precision bits: 11.0086
+⌛(The evaluation of the circuit took): 9:101s, degree: 119
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1875 0.3123 0.4373 0.5627 0.6877 0.8124 0.9373 ]
+Precision bits: 11.9828
+⌛(The evaluation of the circuit took): 9:196s, degree: 119
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0632 0.1866 0.3124 0.4376 0.5628 0.6872 0.8129 0.9373 ]
+Precision bits: 9.9950
+⌛(The evaluation of the circuit took): 8:876s, degree: 119
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1874 0.3128 0.4373 0.5625 0.6877 0.8124 0.9373 ]
+Precision bits: 11.5106
+⌛(The evaluation of the circuit took): 8:829s, degree: 119
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1874 0.3125 0.4375 0.5625 0.6875 0.8126 0.9372 ]
+Precision bits: 11.9853
+⌛(The evaluation of the circuit took): 8:715s, degree: 119
+Degree 119 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.8652
+⌛(The evaluation of the circuit took): 8:924s, degree: 120
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9374 ]
+Precision bits: 13.3447
+⌛(The evaluation of the circuit took): 9:144s, degree: 120
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4374 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.7509
+⌛(The evaluation of the circuit took): 9:135s, degree: 120
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.7081
+⌛(The evaluation of the circuit took): 8:988s, degree: 120
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.6519
+⌛(The evaluation of the circuit took): 8:607s, degree: 120
+Degree 120 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1873 0.3127 0.4375 0.5623 0.6874 0.8127 0.9373 ]
+Precision bits: 12.0799
+⌛(The evaluation of the circuit took): 8:952s, degree: 121
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1872 0.3126 0.4376 0.5624 0.6874 0.8127 0.9373 ]
+Precision bits: 11.8339
+⌛(The evaluation of the circuit took): 8:831s, degree: 121
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0628 0.1874 0.3127 0.4375 0.5625 0.6874 0.8126 0.9372 ]
+Precision bits: 11.8278
+⌛(The evaluation of the circuit took): 8:567s, degree: 121
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0632 0.1871 0.3124 0.4376 0.5631 0.6870 0.8123 0.9373 ]
+Precision bits: 10.4755
+⌛(The evaluation of the circuit took): 8:959s, degree: 121
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0627 0.1875 0.3126 0.4375 0.5625 0.6874 0.8126 0.9373 ]
+Precision bits: 12.3471
+⌛(The evaluation of the circuit took): 9:158s, degree: 121
+Degree 121 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5626 0.6875 0.8126 0.9374 ]
+Precision bits: 13.0291
+⌛(The evaluation of the circuit took): 9:485s, degree: 122
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3126 0.4374 0.5625 0.6874 0.8125 0.9374 ]
+Precision bits: 13.4558
+⌛(The evaluation of the circuit took): 9:154s, degree: 122
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1874 0.3126 0.4374 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.0026
+⌛(The evaluation of the circuit took): 9:342s, degree: 122
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4376 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.9173
+⌛(The evaluation of the circuit took): 8:903s, degree: 122
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9374 ]
+Precision bits: 13.7240
+⌛(The evaluation of the circuit took): 9:11s, degree: 122
+Degree 122 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1874 0.3125 0.4376 0.5624 0.6875 0.8126 0.9375 ]
+Precision bits: 13.3551
+⌛(The evaluation of the circuit took): 8:534s, degree: 123
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4377 0.5624 0.6874 0.8128 0.9371 ]
+Precision bits: 11.2789
+⌛(The evaluation of the circuit took): 9:152s, degree: 123
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1874 0.3128 0.4375 0.5622 0.6874 0.8126 0.9374 ]
+Precision bits: 11.8469
+⌛(The evaluation of the circuit took): 9:603s, degree: 123
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3127 0.4376 0.5628 0.6870 0.8125 0.9373 ]
+Precision bits: 11.0424
+⌛(The evaluation of the circuit took): 9:249s, degree: 123
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1876 0.3126 0.4376 0.5624 0.6874 0.8125 0.9375 ]
+Precision bits: 13.0007
+⌛(The evaluation of the circuit took): 8:933s, degree: 123
+Degree 123 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.1363
+⌛(The evaluation of the circuit took): 8:942s, degree: 124
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1874 0.3125 0.4375 0.5626 0.6875 0.8125 0.9375 ]
+Precision bits: 13.7361
+⌛(The evaluation of the circuit took): 9:349s, degree: 124
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 15.0853
+⌛(The evaluation of the circuit took): 8:523s, degree: 124
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.5101
+⌛(The evaluation of the circuit took): 8:784s, degree: 124
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 15.0460
+⌛(The evaluation of the circuit took): 9:333s, degree: 124
+Degree 124 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1874 0.3126 0.4376 0.5625 0.6875 0.8124 0.9375 ]
+Precision bits: 12.8305
+⌛(The evaluation of the circuit took): 9:399s, degree: 125
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1876 0.3124 0.4375 0.5623 0.6875 0.8126 0.9375 ]
+Precision bits: 12.1796
+⌛(The evaluation of the circuit took): 9:562s, degree: 125
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3126 0.4374 0.5624 0.6875 0.8126 0.9374 ]
+Precision bits: 12.8881
+⌛(The evaluation of the circuit took): 9:185s, degree: 125
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1873 0.3126 0.4375 0.5625 0.6874 0.8126 0.9375 ]
+Precision bits: 12.3785
+⌛(The evaluation of the circuit took): 9:457s, degree: 125
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1873 0.3125 0.4375 0.5625 0.6876 0.8126 0.9375 ]
+Precision bits: 12.4750
+⌛(The evaluation of the circuit took): 8:427s, degree: 125
+Degree 125 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3126 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.0825
+⌛(The evaluation of the circuit took): 8:898s, degree: 126
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4376 0.5625 0.6874 0.8125 0.9374 ]
+Precision bits: 13.1503
+⌛(The evaluation of the circuit took): 8:983s, degree: 126
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.8907
+⌛(The evaluation of the circuit took): 8:966s, degree: 126
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5626 0.6875 0.8125 0.9375 ]
+Precision bits: 13.0632
+⌛(The evaluation of the circuit took): 8:888s, degree: 126
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9374 ]
+Precision bits: 13.6140
+⌛(The evaluation of the circuit took): 9:51s, degree: 126
+Degree 126 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1877 0.3124 0.4373 0.5625 0.6876 0.8123 0.9376 ]
+Precision bits: 11.8173
+⌛(The evaluation of the circuit took): 8:964s, degree: 127
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1877 0.3121 0.4372 0.5622 0.6879 0.8127 0.9377 ]
+Precision bits: 11.2563
+⌛(The evaluation of the circuit took): 9:162s, degree: 127
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0621 0.1877 0.3124 0.4373 0.5620 0.6879 0.8127 0.9378 ]
+Precision bits: 11.0745
+⌛(The evaluation of the circuit took): 9:33s, degree: 127
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0619 0.1876 0.3125 0.4378 0.5622 0.6876 0.8122 0.9380 ]
+Precision bits: 10.8242
+⌛(The evaluation of the circuit took): 9:62s, degree: 127
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1875 0.3123 0.4375 0.5625 0.6877 0.8125 0.9376 ]
+Precision bits: 12.2508
+⌛(The evaluation of the circuit took): 9:10s, degree: 127
+Degree 127 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8126 0.9374 ]
+Precision bits: 13.2692
+⌛(The evaluation of the circuit took): 9:30s, degree: 128
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.5454
+⌛(The evaluation of the circuit took): 8:884s, degree: 128
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.7661
+⌛(The evaluation of the circuit took): 9:164s, degree: 128
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8126 0.9374 ]
+Precision bits: 13.6944
+⌛(The evaluation of the circuit took): 9:40s, degree: 128
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5626 0.6874 0.8126 0.9374 ]
+Precision bits: 13.3270
+⌛(The evaluation of the circuit took): 8:969s, degree: 128
+Degree 128 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0619 0.1880 0.3127 0.4372 0.5622 0.6878 0.8126 0.9377 ]
+Precision bits: 10.6213
+⌛(The evaluation of the circuit took): 8:907s, degree: 129
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1876 0.3124 0.4377 0.5625 0.6878 0.8124 0.9374 ]
+Precision bits: 11.9921
+⌛(The evaluation of the circuit took): 9:19s, degree: 129
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1878 0.3123 0.4373 0.5625 0.6877 0.8122 0.9377 ]
+Precision bits: 11.5822
+⌛(The evaluation of the circuit took): 8:779s, degree: 129
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0624 0.1874 0.3123 0.4373 0.5628 0.6880 0.8122 0.9377 ]
+Precision bits: 10.9681
+⌛(The evaluation of the circuit took): 8:986s, degree: 129
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1877 0.3122 0.4373 0.5620 0.6878 0.8127 0.9378 ]
+Precision bits: 10.8946
+⌛(The evaluation of the circuit took): 8:721s, degree: 129
+Degree 129 done
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1876 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 14.0762
+⌛(The evaluation of the circuit took): 9:458s, degree: 130
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.5406
+⌛(The evaluation of the circuit took): 8:864s, degree: 130
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8124 0.9374 ]
+Precision bits: 14.0720
+⌛(The evaluation of the circuit took): 9:283s, degree: 130
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6874 0.8125 0.9374 ]
+Precision bits: 13.6585
+⌛(The evaluation of the circuit took): 8:753s, degree: 130
+loading existing context
+Expected: [ 0.0625 0.1875 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Obtained: [ 0.0626 0.1874 0.3125 0.4375 0.5625 0.6875 0.8125 0.9375 ]
+Precision bits: 13.3570
+⌛(The evaluation of the circuit took): 9:491s, degree: 130
+Degree 130 done
