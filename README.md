@@ -112,6 +112,23 @@ The above code will not work without the `error_correction` flag.
 The circuit implements the Bitonic Sort algorithm, which creates a sorting network that sorts $2^n$ values.
 <p><img src="imgs/sorting_network.png" alt="Sorting network with eight inputs" width=75% ></p>
 
+WIP
+
 ## Citing
 
+WIP
+
+
 ## Authors
+
+- Lorenzo Rovida (`lorenzo.rovida@unimib.it`)
+- Alberto Leporati (`alberto.leporati@unimib.it`)
+
+Made with <3  at [Bicocca Security Lab](https://www.bislab.unimib.it), at University of Milan-Bicocca.
+
+<img src="imgs/lab_logo.png" alt="BisLab logo" width=20%>
+
+
+### Declaration
+
+This is a proof of concept and, even though parameters are created with $\lambda \geq 128$ security bits (according to [Homomorphic Encryption Standards](https://homomorphicencryption.org/standard)), this circuit is intended for educational purposes only.
